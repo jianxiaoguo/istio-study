@@ -30,7 +30,7 @@ Slime架构主要分为三大块：
 2. slime-controller，slime-module的核心线程，感知SlimeCRD并转换为IstioCRD。
 3. slime-metric，slime-module的监控获取线程，用于感知服务状态，slime-controller会根据服务状态动态调整服务治理规则。
 
-![arch](images\arch.png)
+![arch](images/arch.png)
 
 Slime架构主要分为三大块：
 
@@ -38,7 +38,7 @@ Slime架构主要分为三大块：
 2. slime-modules，Slime的核心线程，感知SlimeCRD并转换为IstioCRD，并触发内置的其他逻辑。
 3. slime-framework，作为底座，为modules提供通用的基础能力。
 
-![slime-arch-v2](images\slime-arch-v2.png)
+![slime-arch-v2](images/slime-arch-v2.png)
 
 
 
@@ -46,7 +46,7 @@ Slime架构主要分为三大块：
 
  使用者将服务治理策略定义在CRD的spec中，同时，slime-metric从prometheus获取关于服务状态信息，并将其记录在CRD的metricStatus中。slime-module的控制器通过metricStatus感知服务状态后，将服务治理策略中将对应的监控项渲染出，并计算策略中的算式，最终生成治理规则、
 
-![policy_zh](images\policy_zh.png)
+![policy_zh](images/policy_zh.png)
 
 
 
@@ -77,7 +77,7 @@ kubectl apply -f deployment_slime-boot.yaml -n mesh-operator
 
 ## 架构
 
-![lazyload-architecture-20211222_zh](images\lazyload-architecture-20211222_zh.png)
+![lazyload-architecture-20211222_zh](images/lazyload-architecture-20211222_zh.png)
 
 
 
@@ -107,7 +107,7 @@ ServiceFence可以看作是针对某一服务的Sidecar资源，区别是Service
 
 例如，c.default.svc.cluster.local在fence中。此时有一条路由规则的host为c.default.svc.cluster.local，其destinatoin为d.default.svc.cluster.local，那么d服务也会被自动扩充到Fence中。
 
-![ll](images\ll.png)
+![ll](images/ll.png)
 
 ## 安装和使用
 
@@ -1252,7 +1252,7 @@ spec:
 
 自适应限流的主体架构分为两个部分，一部分包括`SmartLimiter`到`EnvoyFilter`的逻辑转化，另一部分包括集群内监控数据的获取，包括服务的`CPU`, `Memory`,`POD`数量等数据。
 
-![SmartLimiter](images\SmartLimiter.png)
+![SmartLimiter](images/SmartLimiter.png)
 
 ## 安装
 

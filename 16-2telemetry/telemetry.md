@@ -226,7 +226,7 @@ spec:
 
 
 
-![1](images\1.jpg)
+![1](images/1.jpg)
 
 ## metrics
 
@@ -343,7 +343,7 @@ spec:
 
 value必须是个变量
 
-![3](images\3.jpg)
+![3](images/3.jpg)
 
 
 
@@ -384,7 +384,7 @@ curl 172.20.1.198:15020/stats/prometheus|grep source_version=\"GET\"
 
 
 
-![2](images\2.png)
+![2](images/2.png)
 
 ##### mode
 
@@ -418,7 +418,7 @@ spec:
 
 
 
-![4](images\4.jpg)
+![4](images/4.jpg)
 
 
 
@@ -450,7 +450,7 @@ spec:
           value: "request.method"
 ```
 
-![4](images\4.jpg)
+![4](images/4.jpg)
 
 - **traffic_direction**: "OUTBOUND",
 
@@ -484,7 +484,7 @@ spec:
 
 - **traffic_direction**: "OUTBOUND",
 
-![5](images\5.png)
+![5](images/5.png)
 
 
 
@@ -570,7 +570,7 @@ spec:
 
 
 
-![6](images\6.jpg)
+![6](images/6.jpg)
 
 
 
@@ -668,13 +668,13 @@ spec:
           value: test
 ```
 
-![7](images\7.png)
+![7](images/7.png)
 
 
 
 
 
-![8](images\8.jpg)
+![8](images/8.jpg)
 
 #### environment
 
@@ -701,7 +701,7 @@ spec:
           defaultValue: test
 ```
 
-![9](images\9.jpg)
+![9](images/9.jpg)
 
 
 
@@ -730,8 +730,8 @@ spec:
           defaultValue: test
 ```
 
-![10](images\10.jpg)
+![10](images/10.jpg)
 
 
 
-![11](images\11.jpg)
+![11](images/11.jpg)

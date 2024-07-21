@@ -1,18 +1,18 @@
 # 学习目标
 
-![1620285821(1)](images\1620285821(1).jpg)
+![1620285821(1)](images/1620285821(1).jpg)
 
 # 什么是WorkloadGroup
 
  `WorkloadGroup` describes a collection of workload instances. It provides a specification that the workload instances can use to bootstrap their proxies, including the metadata and identity. It is only intended to be used with non-k8s workloads like Virtual Machines, and is meant to mimic the existing sidecar injection and deployment specification model used for Kubernetes workloads to bootstrap Istio proxies. 
 
-![wk](images\wk.jpg)
+![wk](images/wk.jpg)
 
 # 虚拟机部署sidecar
 
 ## 单网络
 
-![single-network](images\single-network.svg)
+![single-network](images/single-network.svg)
 
 
 
@@ -157,7 +157,7 @@ kubectl delete workloadgroup httpd -n vm-httpd
 
 ## 多网络
 
-![multi-network](images\multi-network.svg)
+![multi-network](images/multi-network.svg)
 
 
 
@@ -496,15 +496,15 @@ spec:
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-77654975fc-xwcjz 15000:15000
 
-![1631672096(1)](images\1631672096(1).jpg)
+![1631672096(1)](images/1631672096(1).jpg)
 
  
 
-![1631672149(1)](images\1631672149(1).jpg)
+![1631672149(1)](images/1631672149(1).jpg)
 
 
 
-![1631672181(1)](images\1631672181(1).jpg)
+![1631672181(1)](images/1631672181(1).jpg)
 
 
 
@@ -679,13 +679,13 @@ status:
 
 
 
-![1631673004(1)](images\1631673004(1).jpg)
+![1631673004(1)](images/1631673004(1).jpg)
 
-![1631673049(1)](images\1631673049(1).jpg)
+![1631673049(1)](images/1631673049(1).jpg)
 
 
 
-![1631673080(1)](images\1631673080(1).jpg)
+![1631673080(1)](images/1631673080(1).jpg)
 
 
 
@@ -801,15 +801,15 @@ reboot
 
 
 
-![1631674952(1)](images\1631674952(1).jpg)
+![1631674952(1)](images/1631674952(1).jpg)
 
 
 
-![1631675000(1)](images\1631675000(1).jpg)
+![1631675000(1)](images/1631675000(1).jpg)
 
 
 
-![1631675514(1)](images\1631675514(1).jpg)
+![1631675514(1)](images/1631675514(1).jpg)
 
 ### tcpSocket
 
@@ -919,13 +919,13 @@ reboot
 
 
 
-![1631675874(1)](images\1631675874(1).jpg)
+![1631675874(1)](images/1631675874(1).jpg)
 
 
 
-![1631675917(1)](images\1631675917(1).jpg)
+![1631675917(1)](images/1631675917(1).jpg)
 
-![1631675950(1)](images\1631675950(1).jpg)
+![1631675950(1)](images/1631675950(1).jpg)
 
 ## template
 
@@ -1048,15 +1048,15 @@ reboot
 
 
 
-![1631676229(1)](images\1631676229(1).jpg)
+![1631676229(1)](images/1631676229(1).jpg)
 
 
 
-![1631676268(1)](images\1631676268(1).jpg)
+![1631676268(1)](images/1631676268(1).jpg)
 
 
 
-![1631676301(1)](images\1631676301(1).jpg)
+![1631676301(1)](images/1631676301(1).jpg)
 
 
 
@@ -1221,13 +1221,13 @@ status:
     type: Healthy
 ```
 
-![1631676607(1)](images\1631676607(1).jpg)
+![1631676607(1)](images/1631676607(1).jpg)
 
 
 
-![1631676690(1)](images\1631676690(1).jpg)
+![1631676690(1)](images/1631676690(1).jpg)
 
-![1631676718(1)](images\1631676718(1).jpg)
+![1631676718(1)](images/1631676718(1).jpg)
 
 ### labels
 
@@ -1389,13 +1389,13 @@ status:
 
 
 
-![1631676967(1)](images\1631676967(1).jpg)
+![1631676967(1)](images/1631676967(1).jpg)
 
-![1631676999(1)](images\1631676999(1).jpg)
+![1631676999(1)](images/1631676999(1).jpg)
 
 
 
-![1631677055(1)](images\1631677055(1).jpg)
+![1631677055(1)](images/1631677055(1).jpg)
 
 ### network,serviceAccount
 
@@ -1762,15 +1762,15 @@ status:
     type: Healthy
 ```
 
-![1631677823(1)](images\1631677823(1).jpg)
+![1631677823(1)](images/1631677823(1).jpg)
 
 
 
-![1631677966(1)](images\1631677966(1).jpg)
+![1631677966(1)](images/1631677966(1).jpg)
 
 
 
-![1631678010(1)](images\1631678010(1).jpg)
+![1631678010(1)](images/1631678010(1).jpg)
 
 ### weight
 
@@ -2055,10 +2055,10 @@ status:
     type: Healthy
 ```
 
-![1631678391(1)](images\1631678391(1).jpg)
+![1631678391(1)](images/1631678391(1).jpg)
 
 
 
-![1631678423(1)](images\1631678423(1).jpg)
+![1631678423(1)](images/1631678423(1).jpg)
 
-![1631678461(1)](images\1631678461(1).jpg)
+![1631678461(1)](images/1631678461(1).jpg)

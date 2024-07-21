@@ -2,7 +2,7 @@
 
 ## 学习目标
 
-![1597551261(1)](images\1597551261(1).jpg)
+![1597551261(1)](images/1597551261(1).jpg)
 
 ## 6-1什么是virtualService
 
@@ -106,7 +106,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl delete vs bookinfo -n istio
 
-![1627277920(1)](images\1627277920(1).jpg)
+![1627277920(1)](images/1627277920(1).jpg)
 
 
 
@@ -174,7 +174,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl delete vs bookinfo -n istio-system
 
-![1627278007(1)](images\1627278007(1).jpg)
+![1627278007(1)](images/1627278007(1).jpg)
 
 
 
@@ -242,9 +242,9 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl delete vs bookinfo -n istio
 
-![1627280440(1)](images\1627280440(1).jpg)
+![1627280440(1)](images/1627280440(1).jpg)
 
-![1627280491(1)](images\1627280491(1).jpg)
+![1627280491(1)](images/1627280491(1).jpg)
 
 
 
@@ -316,7 +316,7 @@ kubectl delete vs bookinfo -n istio
 
 访问成功
 
-![1627280761(1)](images\1627280761(1).jpg)
+![1627280761(1)](images/1627280761(1).jpg)
 
  vs-bookinfo-not-istio-system.yaml 
 
@@ -384,7 +384,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl delete vs bookinfo -n istio
 
-![1627281002(1)](images\1627281002(1).jpg)
+![1627281002(1)](images/1627281002(1).jpg)
 
 
 
@@ -456,9 +456,9 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl delete vs bookinfo -n istio
 
-![1627284742(1)](images\1627284742(1).jpg)
+![1627284742(1)](images/1627284742(1).jpg)
 
-![1627284814(1)](images\1627284814(1).jpg)
+![1627284814(1)](images/1627284814(1).jpg)
 
 #### 2多个gateway
 
@@ -564,15 +564,15 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete gw bookinfo-gateway-02 -n istio
 
-![1627285198(1)](images\1627285198(1).jpg)
+![1627285198(1)](images/1627285198(1).jpg)
 
 
 
-![1627285241(1)](images\1627285241(1).jpg)
+![1627285241(1)](images/1627285241(1).jpg)
 
-![1627285306(1)](images\1627285306(1).jpg)
+![1627285306(1)](images/1627285306(1).jpg)
 
-![1627285355(1)](images\1627285355(1).jpg)
+![1627285355(1)](images/1627285355(1).jpg)
 
 
 
@@ -640,11 +640,11 @@ kubectl delete gw bookinfo-gateway -n default
 
 kubectl delete vs bookinfo -n istio
 
-![1627357327(1)](images\1627357327(1).jpg)
+![1627357327(1)](images/1627357327(1).jpg)
 
 
 
-![1627357386(1)](images\1627357386(1).jpg)
+![1627357386(1)](images/1627357386(1).jpg)
 
 
 
@@ -766,9 +766,9 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-6b746f74dc-5r4t4 15002:15000
 
-![1627358104(1)](images\1627358104(1).jpg)
+![1627358104(1)](images/1627358104(1).jpg)
 
-![1627358178(1)](images\1627358178(1).jpg)
+![1627358178(1)](images/1627358178(1).jpg)
 
 #### 5gateways为mesh
 
@@ -890,11 +890,11 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-6b746f74dc-5r4t4 15002:15000
 
-![1627358956(1)](images\1627358956(1).jpg)
+![1627358956(1)](images/1627358956(1).jpg)
 
 
 
-![1627359029(1)](images\1627359029(1).jpg)
+![1627359029(1)](images/1627359029(1).jpg)
 
 
 
@@ -966,11 +966,11 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl delete vs bookinfo -n istio
 
-![1627361821(1)](images\1627361821(1).jpg)
+![1627361821(1)](images/1627361821(1).jpg)
 
 
 
-![1627361863(1)](images\1627361863(1).jpg)
+![1627361863(1)](images/1627361863(1).jpg)
 
 
 
@@ -1045,11 +1045,11 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl delete vs bookinfo -n istio
 
-![1627362131(1)](images\1627362131(1).jpg)
+![1627362131(1)](images/1627362131(1).jpg)
 
 
 
-![1627362172(1)](images\1627362172(1).jpg)
+![1627362172(1)](images/1627362172(1).jpg)
 
 
 
@@ -1118,11 +1118,11 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627363738(1)](images\1627363738(1).jpg)
+![1627363738(1)](images/1627363738(1).jpg)
 
 
 
-![1627363833(1)](images\1627363833(1).jpg)
+![1627363833(1)](images/1627363833(1).jpg)
 
 
 
@@ -1204,7 +1204,7 @@ kubectl delete vs bookinfo -n default
 
  kubectl port-forward --address 0.0.0.0 -n istio rating-v1-7bf8c9648f-h4dg2 15001:15000
 
-![1627364247(1)](images\1627364247(1).jpg)
+![1627364247(1)](images/1627364247(1).jpg)
 
 
 
@@ -1283,7 +1283,7 @@ kubectl delete vs bookinfo -n default
 
 
 
-![1627364926(1)](images\1627364926(1).jpg)
+![1627364926(1)](images/1627364926(1).jpg)
 
 
 
@@ -1452,7 +1452,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627454831(1)](images\1627454831(1).jpg)
+![1627454831(1)](images/1627454831(1).jpg)
 
 ##### 简单请求allowCredentials
 
@@ -1528,7 +1528,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627455038(1)](images\1627455038(1).jpg)
+![1627455038(1)](images/1627455038(1).jpg)
 
 
 
@@ -1603,7 +1603,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627455153(1)](images\1627455153(1).jpg)
+![1627455153(1)](images/1627455153(1).jpg)
 
 ##### 简单请求allowOrigins regex
 
@@ -1676,7 +1676,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627455304(1)](images\1627455304(1).jpg)
+![1627455304(1)](images/1627455304(1).jpg)
 
 ##### 简单请求exposeHeaders
 
@@ -1748,7 +1748,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete gw bookinfo-gateway -n istio
 
-![1627455432(1)](images\1627455432(1).jpg)
+![1627455432(1)](images/1627455432(1).jpg)
 
 
 
@@ -1817,7 +1817,7 @@ kubectl delete vs bookreviews -n istio
 
 kubectl delete gw bookinfo-gateway -n istio
 
-![1627455630(1)](images\1627455630(1).jpg)
+![1627455630(1)](images/1627455630(1).jpg)
 
 ##### 非简单请求allowMethods
 
@@ -1886,7 +1886,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627455869(1)](images\1627455869(1).jpg)
+![1627455869(1)](images/1627455869(1).jpg)
 
 
 
@@ -1958,7 +1958,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627455991(1)](images\1627455991(1).jpg)
+![1627455991(1)](images/1627455991(1).jpg)
 
 
 
@@ -2033,7 +2033,7 @@ kubectl delete vs bookreviews -n istio
 
 kubectl delete gw bookinfo-gateway -n istio
 
-![1627456104(1)](images\1627456104(1).jpg)
+![1627456104(1)](images/1627456104(1).jpg)
 
 
 
@@ -2202,7 +2202,7 @@ kubectl delete dr reviews -n istio
 
 
 
-![1627542226(1)](images\1627542226(1).jpg)
+![1627542226(1)](images/1627542226(1).jpg)
 
 #### 6-7fault
 
@@ -2302,7 +2302,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627542587(1)](images\1627542587(1).jpg)
+![1627542587(1)](images/1627542587(1).jpg)
 
 
 
@@ -2448,7 +2448,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627542875(1)](images\1627542875(1).jpg)
+![1627542875(1)](images/1627542875(1).jpg)
 
 
 
@@ -2572,7 +2572,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627543045(1)](images\1627543045(1).jpg)
+![1627543045(1)](images/1627543045(1).jpg)
 
 
 
@@ -2648,7 +2648,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627543173(1)](images\1627543173(1).jpg)
+![1627543173(1)](images/1627543173(1).jpg)
 
 ###### set
 
@@ -2722,7 +2722,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627543282(1)](images\1627543282(1).jpg)
+![1627543282(1)](images/1627543282(1).jpg)
 
 
 
@@ -2800,7 +2800,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627543425(1)](images\1627543425(1).jpg)
+![1627543425(1)](images/1627543425(1).jpg)
 
 
 
@@ -2876,7 +2876,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627543546(1)](images\1627543546(1).jpg)
+![1627543546(1)](images/1627543546(1).jpg)
 
 
 
@@ -2956,7 +2956,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627543677(1)](images\1627543677(1).jpg)
+![1627543677(1)](images/1627543677(1).jpg)
 
 
 
@@ -3022,7 +3022,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627618264](images\1627618264.jpg)
+![1627618264](images/1627618264.jpg)
 
 
 
@@ -3084,7 +3084,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627618442(1)](images\1627618442(1).jpg)
+![1627618442(1)](images/1627618442(1).jpg)
 
 
 
@@ -3146,7 +3146,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627618575(1)](images\1627618575(1).jpg)
+![1627618575(1)](images/1627618575(1).jpg)
 
 
 
@@ -3242,11 +3242,11 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627618977(1)](images\1627618977(1).jpg)
+![1627618977(1)](images/1627618977(1).jpg)
 
 
 
-![1627619069(1)](images\1627619069(1).jpg)
+![1627619069(1)](images/1627619069(1).jpg)
 
 ##### headers
 
@@ -3372,13 +3372,13 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627619532(1)](images\1627619532(1).jpg)
+![1627619532(1)](images/1627619532(1).jpg)
 
 kubectl port-forward --address 0.0.0.0 -n istio reviews-v1-545db77b95-zqr6s 15001:15000
 
 
 
-![1627619734](images\1627619734.jpg)
+![1627619734](images/1627619734.jpg)
 
 
 
@@ -3506,7 +3506,7 @@ kubectl port-forward --address 0.0.0.0 -n istio reviews-v1-545db77b95-zqr6s 1500
 
 
 
-![1627620092(1)](images\1627620092(1).jpg)
+![1627620092(1)](images/1627620092(1).jpg)
 
 ###### regex
 
@@ -3630,7 +3630,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio reviews-v1-545db77b95-zqr6s 15001:15000
 
-![1627620534(1)](images\1627620534(1).jpg)
+![1627620534(1)](images/1627620534(1).jpg)
 
 
 
@@ -3695,7 +3695,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627620763(1)](images\1627620763(1).jpg)
+![1627620763(1)](images/1627620763(1).jpg)
 
 
 
@@ -3819,7 +3819,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627620890(1)](images\1627620890(1).jpg)
+![1627620890(1)](images/1627620890(1).jpg)
 
 
 
@@ -3884,7 +3884,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627621153(1)](images\1627621153(1).jpg)
+![1627621153(1)](images/1627621153(1).jpg)
 
 
 
@@ -3948,7 +3948,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627622852(1)](images\1627622852(1).jpg)
+![1627622852(1)](images/1627622852(1).jpg)
 
 
 
@@ -4010,7 +4010,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627622962(1)](images\1627622962(1).jpg)
+![1627622962(1)](images/1627622962(1).jpg)
 
 
 
@@ -4072,7 +4072,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627623068(1)](images\1627623068(1).jpg)
+![1627623068(1)](images/1627623068(1).jpg)
 
 
 
@@ -4135,7 +4135,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627623194(1)](images\1627623194(1).jpg)
+![1627623194(1)](images/1627623194(1).jpg)
 
 
 
@@ -4196,7 +4196,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627623498(1)](images\1627623498(1).jpg)
+![1627623498(1)](images/1627623498(1).jpg)
 
 ##### queryParams
 
@@ -4259,7 +4259,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627623638(1)](images\1627623638(1).jpg)
+![1627623638(1)](images/1627623638(1).jpg)
 
 
 
@@ -4324,7 +4324,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627623771(1)](images\1627623771(1).jpg)
+![1627623771(1)](images/1627623771(1).jpg)
 
 
 
@@ -4389,7 +4389,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627623883(1)](images\1627623883(1).jpg)
+![1627623883(1)](images/1627623883(1).jpg)
 
 
 
@@ -4457,7 +4457,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627624057(1)](images\1627624057(1).jpg)
+![1627624057(1)](images/1627624057(1).jpg)
 
 
 
@@ -4521,7 +4521,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627624161(1)](images\1627624161(1).jpg)
+![1627624161(1)](images/1627624161(1).jpg)
 
 
 
@@ -4585,7 +4585,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627624264(1)](images\1627624264(1).jpg)
+![1627624264(1)](images/1627624264(1).jpg)
 
 
 
@@ -4766,7 +4766,7 @@ kubectl  delete gw bookinfo-gateway -n istio
 
 kubectl delete vs bookinfo -n istio
 
-![1627626095(1)](images\1627626095(1).jpg)
+![1627626095(1)](images/1627626095(1).jpg)
 
 
 
@@ -4832,7 +4832,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627626253(1)](images\1627626253(1).jpg)
+![1627626253(1)](images/1627626253(1).jpg)
 
 
 
@@ -4894,7 +4894,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627626355(1)](images\1627626355(1).jpg)
+![1627626355(1)](images/1627626355(1).jpg)
 
 
 
@@ -4958,7 +4958,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627626450(1)](images\1627626450(1).jpg)
+![1627626450(1)](images/1627626450(1).jpg)
 
 
 
@@ -5033,7 +5033,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627626588(1)](images\1627626588(1).jpg)
+![1627626588(1)](images/1627626588(1).jpg)
 
 
 
@@ -5102,7 +5102,7 @@ kubectl  delete gw bookinfo-gateway -n istio
 
 kubectl delete vs bookinfo -n istio
 
-![1627626689(1)](images\1627626689(1).jpg)
+![1627626689(1)](images/1627626689(1).jpg)
 
 
 
@@ -5171,7 +5171,7 @@ kubectl delete vs bookinfo -n istio
 
 
 
-![1627626796(1)](images\1627626796(1).jpg)
+![1627626796(1)](images/1627626796(1).jpg)
 
 
 
@@ -5331,7 +5331,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627702387(1)](images\1627702387(1).jpg)
+![1627702387(1)](images/1627702387(1).jpg)
 
 
 
@@ -5491,7 +5491,7 @@ kubectl  delete dr productpage -n istio-2
 
 
 
-![1627702495(1)](images\1627702495(1).jpg)
+![1627702495(1)](images/1627702495(1).jpg)
 
 
 
@@ -5562,7 +5562,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627702715(1)](images\1627702715(1).jpg)
+![1627702715(1)](images/1627702715(1).jpg)
 
 
 
@@ -5645,7 +5645,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627702875(1)](images\1627702875(1).jpg)
+![1627702875(1)](images/1627702875(1).jpg)
 
 
 
@@ -5816,7 +5816,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627703309(1)](images\1627703309(1).jpg)
+![1627703309(1)](images/1627703309(1).jpg)
 
 
 
@@ -5966,7 +5966,7 @@ kubectl delete dr productpage -n istio
 
 没看出配置和上一个有啥不同
 
-![1627703786(1)](images\1627703786(1).jpg)
+![1627703786(1)](images/1627703786(1).jpg)
 
 
 
@@ -6032,7 +6032,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627704005(1)](images\1627704005(1).jpg)
+![1627704005(1)](images/1627704005(1).jpg)
 
 
 
@@ -6099,7 +6099,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627704157(1)](images\1627704157(1).jpg)
+![1627704157(1)](images/1627704157(1).jpg)
 
 
 
@@ -6197,7 +6197,7 @@ kubectl delete vs reviews -n istio
 
 
 
-![1627706461(1)](images\1627706461(1).jpg)
+![1627706461(1)](images/1627706461(1).jpg)
 
 
 
@@ -6287,7 +6287,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl delete vs reviews -n istio
 
-![1627706549(1)](images\1627706549(1).jpg)
+![1627706549(1)](images/1627706549(1).jpg)
 
 
 
@@ -6407,7 +6407,7 @@ kubectl  delete dr reviews -n  istio
 
 
 
-![1627706742(1)](images\1627706742(1).jpg)
+![1627706742(1)](images/1627706742(1).jpg)
 
 
 
@@ -6531,7 +6531,7 @@ kubectl  delete dr reviews -n  istio
 
 
 
-![1627706909(1)](images\1627706909(1).jpg)
+![1627706909(1)](images/1627706909(1).jpg)
 
 
 
@@ -6651,7 +6651,7 @@ kubectl  delete dr reviews -n  istio
 
 
 
-![1627707004(1)](images\1627707004(1).jpg)
+![1627707004(1)](images/1627707004(1).jpg)
 
 
 
@@ -6771,7 +6771,7 @@ kubectl delete vs reviews -n istio
 
 kubectl  delete dr reviews -n  istio
 
-![1627707113(1)](images\1627707113(1).jpg)
+![1627707113(1)](images/1627707113(1).jpg)
 
 
 
@@ -6849,7 +6849,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627707336(1)](images\1627707336(1).jpg)
+![1627707336(1)](images/1627707336(1).jpg)
 
 
 
@@ -6921,7 +6921,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete gw bookinfo-gateway -n istio
 
-![1627707398(1)](images\1627707398(1).jpg)
+![1627707398(1)](images/1627707398(1).jpg)
 
 
 
@@ -7002,7 +7002,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 
 
-![1627707474(1)](images\1627707474(1).jpg)
+![1627707474(1)](images/1627707474(1).jpg)
 
 
 
@@ -7127,7 +7127,7 @@ kubectl  delete dr reviews -n  istio
 
 
 
-![1627707791(1)](images\1627707791(1).jpg)
+![1627707791(1)](images/1627707791(1).jpg)
 
 
 
@@ -7200,7 +7200,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete gw bookinfo-gateway -n istio
 
-![1627708031(1)](images\1627708031(1).jpg)
+![1627708031(1)](images/1627708031(1).jpg)
 
 
 
@@ -7387,7 +7387,7 @@ kubectl delete secret  nginx-server-certs   -n istio
 
 
 
-![1627709092(1)](images\1627709092(1).jpg)
+![1627709092(1)](images/1627709092(1).jpg)
 
 
 
@@ -7588,7 +7588,7 @@ kubectl delete dr my-nginx -n istio
 
 端口匹配才会有下面配置
 
-![1627709743(1)](images\1627709743(1).jpg)
+![1627709743(1)](images/1627709743(1).jpg)
 
 ##### gateways
 
@@ -7783,7 +7783,7 @@ kubectl delete dr my-nginx -n istio
 
 gateway匹配才会有下面配置
 
-![1627710122(1)](images\1627710122(1).jpg)
+![1627710122(1)](images/1627710122(1).jpg)
 
 
 
@@ -8081,7 +8081,7 @@ kubectl delete secret nginx-server-certs  -n istio
 
 
 
-![1627715165(1)](images\1627715165(1).jpg)
+![1627715165(1)](images/1627715165(1).jpg)
 
 
 
@@ -8383,7 +8383,7 @@ kubectl port-forward --address 0.0.0.0 -n istio sleep-557747455f-t7bt4  15001:15
 
 只有sleep pod 有这个配置
 
-![1627716346(1)](images\1627716346(1).jpg)
+![1627716346(1)](images/1627716346(1).jpg)
 
 
 
@@ -8685,7 +8685,7 @@ kubectl port-forward --address 0.0.0.0 -n istio sleep-557747455f-t7bt4  15001:15
 
 有这个说明namespace生效
 
-![1627716596(1)](images\1627716596(1).jpg)
+![1627716596(1)](images/1627716596(1).jpg)
 
 #### route
 
@@ -8854,7 +8854,7 @@ kubectl delete -f tcp-echo-services.yaml -n istio
 
 端口匹配
 
-![1627717291(1)](images\1627717291(1).jpg)
+![1627717291(1)](images/1627717291(1).jpg)
 
 
 
@@ -9050,7 +9050,7 @@ kubectl port-forward --address 0.0.0.0 -n istio tcp-echo-v1-7dd5c5dcfb-4mzt9  15
 
 
 
-![1627718421(1)](images\1627718421(1).jpg)
+![1627718421(1)](images/1627718421(1).jpg)
 
 
 
@@ -9247,7 +9247,7 @@ kubectl delete -f tcp-echo-services.yaml -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio tcp-echo-v1-7dd5c5dcfb-4mzt9 15000:15000
 
-![1627787352(1)](images\1627787352(1).jpg)
+![1627787352(1)](images/1627787352(1).jpg)
 
 
 
@@ -9407,7 +9407,7 @@ kubectl delete -f tcp-echo-services.yaml -n istio
 
 
 
-![1627787598(1)](images\1627787598(1).jpg)
+![1627787598(1)](images/1627787598(1).jpg)
 
 
 
@@ -9604,7 +9604,7 @@ kubectl delete -f tcp-echo-services.yaml -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio tcp-echo-v1-7dd5c5dcfb-4mzt9 15000:15000
 
-![1627787765(1)](images\1627787765(1).jpg)
+![1627787765(1)](images/1627787765(1).jpg)
 
 
 
@@ -9764,7 +9764,7 @@ kubectl delete -f tcp-echo-services.yaml -n istio
 
 
 
-![1627787962(1)](images\1627787962(1).jpg)
+![1627787962(1)](images/1627787962(1).jpg)
 
 
 
@@ -9898,7 +9898,7 @@ kubectl delete -f tcp-echo-services.yaml -n istio
 
 
 
-![1627788439(1)](images\1627788439(1).jpg)
+![1627788439(1)](images/1627788439(1).jpg)
 
 
 
@@ -10028,7 +10028,7 @@ kubectl delete vs tcp-echo -n istio
 
 kubectl delete -f tcp-echo-services.yaml -n istio
 
-![1627788497(1)](images\1627788497(1).jpg)
+![1627788497(1)](images/1627788497(1).jpg)
 
 
 
@@ -10183,7 +10183,7 @@ kubectl delete -f tcp-echo-services.yaml -n istio
 
 
 
-![1627788555](images\1627788555.jpg)
+![1627788555](images/1627788555.jpg)
 
 ##### weight
 
@@ -10343,7 +10343,7 @@ kubectl delete -f tcp-echo-services.yaml -n istio
 
 
 
-![1627788640(1)](images\1627788640(1).jpg)
+![1627788640(1)](images/1627788640(1).jpg)
 
 
 
@@ -10351,5 +10351,5 @@ kubectl delete -f tcp-echo-services.yaml -n istio
 
  VirtualService 在http、tls、tcp这三个字段上分别定义了应用于HTTP、TLS和TCP三种协议的路由规则。从规则构成上都是先定义一组匹配条件，然后对满足条件的的流量执行对应的操作。因为协议的内容不同，路由匹配条件不同，所以执行的操作也不同。如下表所示对比了三种路由规则。从各个维度来看，HTTP路由规则的内容最丰富，TCP路由规则的内容最少，这也符合协议分层的设计。 
 
-![1597557680(1)](images\1597557680(1).jpg)
+![1597557680(1)](images/1597557680(1).jpg)
 

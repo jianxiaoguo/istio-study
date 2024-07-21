@@ -2,7 +2,7 @@
 
  WASM 的诞生源自前端，是一种为了解决日益复杂的前端 web 应用以及有限的 JavaScript 性能而诞生的技术。它本身并不是一种语言，而是一种字节码标准，一个“编译目标”。WASM 字节码和机器码非常接近，因此可以非常快速的装载运行。任何一种语言，都可以被编译成 WASM 字节码，然后在 WASM 虚拟机中执行（本身是为 web 设计，必然天然跨平台，同时为了沙箱运行保障安全，所以直接编译成机器码并不是最佳选择）。理论上，所有语言，包括 JavaScript、C、C++、Rust、Go、Java 等都可以编译成 WASM 字节码并在 WASM 虚拟机中执行。 
 
-![11](images\11.jpg)
+![11](images/11.jpg)
 
 
 
@@ -545,7 +545,7 @@ spec:
 
 ## 原理
 
-![how-it-works](images\how-it-works.png)
+![how-it-works](images/how-it-works.png)
 
 # wasm编写
 

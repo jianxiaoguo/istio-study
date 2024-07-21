@@ -1,6 +1,6 @@
 # 学习目标
 
-![1618719219(1)](images\1618719219(1).jpg)
+![1618719219(1)](images/1618719219(1).jpg)
 
 # 10-1什么是sidecar
 
@@ -112,11 +112,11 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628565499(1)](images\1628565499(1).jpg)
+![1628565499(1)](images/1628565499(1).jpg)
 
 
 
-![1628565566(1)](images\1628565566(1).jpg)
+![1628565566(1)](images/1628565566(1).jpg)
 
 
 
@@ -216,9 +216,9 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628565769(1)](images\1628565769(1).jpg)
+![1628565769(1)](images/1628565769(1).jpg)
 
-![1628565841(1)](images\1628565841(1).jpg)
+![1628565841(1)](images/1628565841(1).jpg)
 
 
 
@@ -332,11 +332,11 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628566017(1)](images\1628566017(1).jpg)
+![1628566017(1)](images/1628566017(1).jpg)
 
-![1628566055(1)](images\1628566055(1).jpg)
+![1628566055(1)](images/1628566055(1).jpg)
 
-![1628566103(1)](images\1628566103(1).jpg)
+![1628566103(1)](images/1628566103(1).jpg)
 
 
 
@@ -449,11 +449,11 @@ kubectl delete gw bookinfo-gateway -n istio
 
 设置了规则后，cluster变少了
 
-![1628566347(1)](images\1628566347(1).jpg)
+![1628566347(1)](images/1628566347(1).jpg)
 
 没设置规则
 
-![1628566406(1)](images\1628566406(1).jpg)
+![1628566406(1)](images/1628566406(1).jpg)
 
 ### bind
 
@@ -556,7 +556,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 默认是0.0.0.0
 
-![1628566982(1)](images\1628566982(1).jpg)
+![1628566982(1)](images/1628566982(1).jpg)
 
 
 
@@ -663,9 +663,9 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 svc ip
 
-![1628567240(1)](images\1628567240(1).jpg)
+![1628567240(1)](images/1628567240(1).jpg)
 
-![1628567280(1)](images\1628567280(1).jpg)
+![1628567280(1)](images/1628567280(1).jpg)
 
 
 
@@ -777,7 +777,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628570054(1)](images\1628570054(1).jpg)
+![1628570054(1)](images/1628570054(1).jpg)
 
 
 
@@ -883,7 +883,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628570150(1)](images\1628570150(1).jpg)
+![1628570150(1)](images/1628570150(1).jpg)
 
 
 
@@ -1221,7 +1221,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete gw bookinfo-gateway -n istio
 
-![1628573868(1)](images\1628573868(1).jpg)
+![1628573868(1)](images/1628573868(1).jpg)
 
 
 
@@ -1315,7 +1315,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete gw bookinfo-gateway -n istio
 
-![1628573950(1)](images\1628573950(1).jpg)
+![1628573950(1)](images/1628573950(1).jpg)
 
 
 
@@ -1411,7 +1411,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete gw bookinfo-gateway -n istio
 
-![1628574002](images\1628574002.jpg)
+![1628574002](images/1628574002.jpg)
 
 
 
@@ -1507,7 +1507,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete gw bookinfo-gateway -n istio
 
-![1628574096(1)](images\1628574096(1).jpg)
+![1628574096(1)](images/1628574096(1).jpg)
 
 
 
@@ -1620,7 +1620,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628577377(1)](images\1628577377(1).jpg)
+![1628577377(1)](images/1628577377(1).jpg)
 
 
 
@@ -1727,7 +1727,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 0.0.0.0不显示
 
-![1628577917(1)](images\1628577917(1).jpg)
+![1628577917(1)](images/1628577917(1).jpg)
 
 
 
@@ -1832,7 +1832,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628577848](images\1628577848.jpg)
+![1628577848](images/1628577848.jpg)
 
 
 
@@ -1945,7 +1945,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628578363(1)](images\1628578363(1).jpg)
+![1628578363(1)](images/1628578363(1).jpg)
 
 
 
@@ -2046,7 +2046,7 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628578416(1)](images\1628578416(1).jpg)
+![1628578416(1)](images/1628578416(1).jpg)
 
 
 
@@ -2332,9 +2332,9 @@ kubectl delete gw mysql -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio mysqldb-v1-6f68664cbf-mrl22 15001:15000
 
-![1628578839(1)](images\1628578839(1).jpg)
+![1628578839(1)](images/1628578839(1).jpg)
 
-![1628578879(1)](images\1628578879(1).jpg)
+![1628578879(1)](images/1628578879(1).jpg)
 
 
 
@@ -2434,9 +2434,9 @@ kubectl delete gw bookinfo-gateway -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628578976(1)](images\1628578976(1).jpg)
+![1628578976(1)](images/1628578976(1).jpg)
 
-![1628579017(1)](images\1628579017(1).jpg)
+![1628579017(1)](images/1628579017(1).jpg)
 
 
 

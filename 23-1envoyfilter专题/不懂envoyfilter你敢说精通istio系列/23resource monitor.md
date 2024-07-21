@@ -72,7 +72,7 @@ scaled：
 
 支持的name：
 
-![1](23images\1.jpg)
+![1](23images/1.jpg)
 
 支持的typed_config：
 

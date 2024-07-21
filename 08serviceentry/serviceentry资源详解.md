@@ -1,6 +1,6 @@
 # 学习目标
 
-![1618284294(1)](images\1618284294(1).jpg)
+![1618284294(1)](images/1618284294(1).jpg)
 
 # 8-1什么是ServiceEntry
 
@@ -134,11 +134,11 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628144556(1)](images\1628144556(1).jpg)
+![1628144556(1)](images/1628144556(1).jpg)
 
 
 
-![1628145043(1)](images\1628145043(1).jpg)
+![1628145043(1)](images/1628145043(1).jpg)
 
 
 
@@ -240,13 +240,13 @@ kubectl port-forward --address 0.0.0.0 -n istio-system istio-ingressgateway-8657
 
 
 
-![1628145433(1)](images\1628145433(1).jpg)
+![1628145433(1)](images/1628145433(1).jpg)
 
 
 
 
 
-![1628145483(1)](images\1628145483(1).jpg)
+![1628145483(1)](images/1628145483(1).jpg)
 
 
 
@@ -342,11 +342,11 @@ kubectl  delete se baidu -n istio
 
 
 
-![1628145689(1)](images\1628145689(1).jpg)
+![1628145689(1)](images/1628145689(1).jpg)
 
 
 
-![1628145724(1)](images\1628145724(1).jpg)
+![1628145724(1)](images/1628145724(1).jpg)
 
 
 
@@ -441,27 +441,27 @@ kubectl  delete se baidu -n istio
 
 
 
-![1628305953(1)](images\1628305953(1).jpg)
+![1628305953(1)](images/1628305953(1).jpg)
 
 
 
-![1628306068(1)](images\1628306068(1).jpg)
+![1628306068(1)](images/1628306068(1).jpg)
 
 
 
-![1628306115(1)](images\1628306115(1).jpg)
+![1628306115(1)](images/1628306115(1).jpg)
 
 
 
-![1628306180(1)](images\1628306180(1).jpg)
+![1628306180(1)](images/1628306180(1).jpg)
 
 
 
-![1628306215(1)](images\1628306215(1).jpg)
+![1628306215(1)](images/1628306215(1).jpg)
 
 
 
-![1628306252(1)](images\1628306252(1).jpg)
+![1628306252(1)](images/1628306252(1).jpg)
 
 
 
@@ -565,17 +565,17 @@ kubectl  delete se baidu -n istio
 
 
 
-![1628306395(1)](images\1628306395(1).jpg)
+![1628306395(1)](images/1628306395(1).jpg)
 
 
 
-![1628306435(1)](images\1628306435(1).jpg)
+![1628306435(1)](images/1628306435(1).jpg)
 
 
 
 
 
-![1628306467(1)](images\1628306467(1).jpg)
+![1628306467(1)](images/1628306467(1).jpg)
 
 
 
@@ -673,15 +673,15 @@ kubectl  delete se baidu -n istio
 
 
 
-![1628306730(1)](images\1628306730(1).jpg)
+![1628306730(1)](images/1628306730(1).jpg)
 
 
 
-![1628306812(1)](images\1628306812(1).jpg)
+![1628306812(1)](images/1628306812(1).jpg)
 
 
 
-![1628306843(1)](images\1628306843(1).jpg)
+![1628306843(1)](images/1628306843(1).jpg)
 
 mongodb-se-resolution-static.yaml
 
@@ -772,17 +772,17 @@ kubectl delete se mongodb-se -n istio
 
 
 
-![1628307125(1)](images\1628307125(1).jpg)
+![1628307125(1)](images/1628307125(1).jpg)
 
 
 
-![1628307171(1)](images\1628307171(1).jpg)
+![1628307171(1)](images/1628307171(1).jpg)
 
 
 
 
 
-![1628307206(1)](images\1628307206(1).jpg)
+![1628307206(1)](images/1628307206(1).jpg)
 
 
 
@@ -888,13 +888,13 @@ kubectl  delete se baidu -n istio
 
 
 
-![1628307627(1)](images\1628307627(1).jpg)
+![1628307627(1)](images/1628307627(1).jpg)
 
-![1628307720(1)](images\1628307720(1).jpg)
+![1628307720(1)](images/1628307720(1).jpg)
 
 
 
-![1628307756(1)](images\1628307756(1).jpg)
+![1628307756(1)](images/1628307756(1).jpg)
 
 
 
@@ -1152,17 +1152,17 @@ kubectl delete se mongodb-se -n istio
 
 
 
-![1628308223(1)](images\1628308223(1).jpg)
+![1628308223(1)](images/1628308223(1).jpg)
 
 
 
-![1628308274(1)](images\1628308274(1).jpg)
+![1628308274(1)](images/1628308274(1).jpg)
 
 
 
 
 
-![1628308333(1)](images\1628308333(1).jpg)
+![1628308333(1)](images/1628308333(1).jpg)
 
 
 
@@ -1265,15 +1265,15 @@ kubectl  delete se baidu -n istio
 
 
 
-![1628308575(1)](images\1628308575(1).jpg)
+![1628308575(1)](images/1628308575(1).jpg)
 
 
 
-![1628308618(1)](images\1628308618(1).jpg)
+![1628308618(1)](images/1628308618(1).jpg)
 
 
 
-![1628308650(1)](images\1628308650(1).jpg)
+![1628308650(1)](images/1628308650(1).jpg)
 
 
 
@@ -1427,17 +1427,17 @@ kubectl  delete se details-se -n istio
 
 
 
-![1628309223(1)](images\1628309223(1).jpg)
+![1628309223(1)](images/1628309223(1).jpg)
 
 
 
 
 
-![1628309259(1)](images\1628309259(1).jpg)
+![1628309259(1)](images/1628309259(1).jpg)
 
 
 
-![1628309287(1)](images\1628309287(1).jpg)
+![1628309287(1)](images/1628309287(1).jpg)
 
 
 
@@ -1596,15 +1596,15 @@ kubectl  delete se details-se -n istio
 
 没有177的配置数据
 
-![1628311397(1)](images\1628311397(1).jpg)
+![1628311397(1)](images/1628311397(1).jpg)
 
 
 
-![1628311443(1)](images\1628311443(1).jpg)
+![1628311443(1)](images/1628311443(1).jpg)
 
 
 
-![1628311481(1)](images\1628311481(1).jpg)
+![1628311481(1)](images/1628311481(1).jpg)
 
 
 
@@ -1700,17 +1700,17 @@ kubectl delete -f sleep.yaml  -n istio
 
 kubectl  delete se baidu -n istio
 
-![1628311797(1)](images\1628311797(1).jpg)
+![1628311797(1)](images/1628311797(1).jpg)
 
 
 
-![1628311843(1)](images\1628311843(1).jpg)
+![1628311843(1)](images/1628311843(1).jpg)
 
 
 
 
 
-![1628311880(1)](images\1628311880(1).jpg)
+![1628311880(1)](images/1628311880(1).jpg)
 
 
 
@@ -1804,15 +1804,15 @@ kubectl delete -f sleep.yaml  -n istio
 
 kubectl  delete se baidu -n istio
 
-![1628312052(1)](images\1628312052(1).jpg)
+![1628312052(1)](images/1628312052(1).jpg)
 
 
 
-![1628312097(1)](images\1628312097(1).jpg)
+![1628312097(1)](images/1628312097(1).jpg)
 
 
 
-![1628312140(1)](images\1628312140(1).jpg)
+![1628312140(1)](images/1628312140(1).jpg)
 
 
 
@@ -1903,13 +1903,13 @@ kubectl  delete se jd-api -n istio
 
 
 
-![1628312288(1)](images\1628312288(1).jpg)
+![1628312288(1)](images/1628312288(1).jpg)
 
-![1628312325(1)](images\1628312325(1).jpg)
+![1628312325(1)](images/1628312325(1).jpg)
 
 
 
-![1628312359(1)](images\1628312359(1).jpg)
+![1628312359(1)](images/1628312359(1).jpg)
 
 
 
@@ -2087,31 +2087,31 @@ kubectl delete dr dr-egressgateway-cnn -n istio
 
 kubectl delete gw cnn-egressgateway -n istio
 
-![1628312915(1)](images\1628312915(1).jpg)
+![1628312915(1)](images/1628312915(1).jpg)
 
 
 
-![1628312958(1)](images\1628312958(1).jpg)
+![1628312958(1)](images/1628312958(1).jpg)
 
 
 
-![1628312988(1)](images\1628312988(1).jpg)
+![1628312988(1)](images/1628312988(1).jpg)
 
-![1628313064(1)](images\1628313064(1).jpg)
+![1628313064(1)](images/1628313064(1).jpg)
 
 
 
-![1628313112(1)](images\1628313112(1).jpg)
+![1628313112(1)](images/1628313112(1).jpg)
 
-![1628313152(1)](images\1628313152(1).jpg)
+![1628313152(1)](images/1628313152(1).jpg)
 
 
 
  kubectl port-forward --address 0.0.0.0 -n istio-system istio-egressgateway-585f7668fc-4nxdz 15001:15000
 
-![1628313420(1)](images\1628313420(1).jpg)
+![1628313420(1)](images/1628313420(1).jpg)
 
-![1628313463(1)](images\1628313463(1).jpg)
+![1628313463(1)](images/1628313463(1).jpg)
 
 
 
@@ -2282,15 +2282,15 @@ kubectl delete -f mongodb-deploy.yaml  -n istio
 
 kubectl delete se mongodb-se -n istio
 
-![1628391150(1)](images\1628391150(1).jpg)
+![1628391150(1)](images/1628391150(1).jpg)
 
 
 
-![1628391259(1)](images\1628391259(1).jpg)
+![1628391259(1)](images/1628391259(1).jpg)
 
 
 
-![1628391292(1)](images\1628391292(1).jpg)
+![1628391292(1)](images/1628391292(1).jpg)
 
 ### labels
 
@@ -2452,25 +2452,25 @@ kubectl delete dr mymongodb -n istio
 
 kubectl delete vs vs-mongodb -n istio
 
-![1628391381(1)](images\1628391381(1).jpg)
+![1628391381(1)](images/1628391381(1).jpg)
 
-![1628391419(1)](images\1628391419(1).jpg)
-
-
-
-![1628391510(1)](images\1628391510(1).jpg)
-
-![1628391560(1)](images\1628391560(1).jpg)
-
-![1628391589(1)](images\1628391589(1).jpg)
+![1628391419(1)](images/1628391419(1).jpg)
 
 
 
-![1628391633(1)](images\1628391633(1).jpg)
+![1628391510(1)](images/1628391510(1).jpg)
+
+![1628391560(1)](images/1628391560(1).jpg)
+
+![1628391589(1)](images/1628391589(1).jpg)
 
 
 
-![1628391673(1)](images\1628391673(1).jpg)
+![1628391633(1)](images/1628391633(1).jpg)
+
+
+
+![1628391673(1)](images/1628391673(1).jpg)
 
 
 
@@ -2665,11 +2665,11 @@ kubectl delete dr dr-mongodb -n istio
 
 kubectl delete vs vs-mongodb -n istio
 
-![1628392087(1)](images\1628392087(1).jpg)
+![1628392087(1)](images/1628392087(1).jpg)
 
-![1628392134(1)](images\1628392134(1).jpg)
+![1628392134(1)](images/1628392134(1).jpg)
 
-![1628392173(1)](images\1628392173(1).jpg)
+![1628392173(1)](images/1628392173(1).jpg)
 
 
 
@@ -2847,15 +2847,15 @@ kubectl delete dr dr-mongodb -n istio
 
 kubectl delete vs vs-mongodb -n istio
 
-![1628392465(1)](images\1628392465(1).jpg)
+![1628392465(1)](images/1628392465(1).jpg)
 
 
 
-![1628392511(1)](images\1628392511(1).jpg)
+![1628392511(1)](images/1628392511(1).jpg)
 
 
 
-![1628392562(1)](images\1628392562(1).jpg)
+![1628392562(1)](images/1628392562(1).jpg)
 
 
 
@@ -2991,13 +2991,13 @@ kubectl delete se mongodb-se -n istio
 
 
 
-![1628392729(1)](images\1628392729(1).jpg)
+![1628392729(1)](images/1628392729(1).jpg)
 
-![1628392772(1)](images\1628392772(1).jpg)
+![1628392772(1)](images/1628392772(1).jpg)
 
 
 
-![1628392832(1)](images\1628392832(1).jpg)
+![1628392832(1)](images/1628392832(1).jpg)
 
 ### serviceAccount
 
@@ -3130,13 +3130,13 @@ kubectl delete -f mongodb-deploy.yaml  -n istio
 
 kubectl delete se mongodb-se -n istio
 
-![1628393154(1)](images\1628393154(1).jpg)
+![1628393154(1)](images/1628393154(1).jpg)
 
-![1628393204(1)](images\1628393204(1).jpg)
+![1628393204(1)](images/1628393204(1).jpg)
 
 
 
-![1628393240(1)](images\1628393240(1).jpg)
+![1628393240(1)](images/1628393240(1).jpg)
 
 ## 8-13subjectAltNames
 
@@ -3308,15 +3308,15 @@ kubectl delete -f details2-deploy.yaml -n default
 
 kubectl  delete se details-se -n istio
 
-![1628394508(1)](images\1628394508(1).jpg)
+![1628394508(1)](images/1628394508(1).jpg)
 
 
 
-![1628394586(1)](images\1628394586(1).jpg)
+![1628394586(1)](images/1628394586(1).jpg)
 
 
 
-![1628394629(1)](images\1628394629(1).jpg)
+![1628394629(1)](images/1628394629(1).jpg)
 
 
 
@@ -3701,13 +3701,13 @@ kubectl delete -f details2-deploy.yaml -n default
 
 kubectl  delete se details-se -n istio
 
-![1628393773(1)](images\1628393773(1).jpg)
+![1628393773(1)](images/1628393773(1).jpg)
 
 
 
-![1628393809(1)](images\1628393809(1).jpg)
+![1628393809(1)](images/1628393809(1).jpg)
 
 
 
-![1628393841(1)](images\1628393841(1).jpg)
+![1628393841(1)](images/1628393841(1).jpg)
 

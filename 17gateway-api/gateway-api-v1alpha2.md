@@ -25,11 +25,11 @@ GatewayClasses - GatewayClasses 将负载均衡实现的类型形式化，这些
 
 Gateway API 通过对 Kubernetes 服务网络进行面向角色的设计来实现这一目标，平衡了灵活性和集中控制。它允许共享的网络基础设施（硬件负载均衡器、云网络、集群托管的代理等）被许多不同的团队使用，所有这些都受到集群运维设置的各种策略和约束。下面的例子显示了是如何在实践中运行的。
 
-![operator](images\operator.png)
+![operator](images/operator.png)
 
 # 架构
 
-![gateway-api-arch](images\gateway-api-arch.png)
+![gateway-api-arch](images/gateway-api-arch.png)
 
 
 
@@ -67,7 +67,7 @@ TCPRoute（和UDPRoute）旨在用于将一个或多个端口映射到单个后�
 
 **4.组合**
 GatewayClass、Gateway、xRoute 和 Service 的组合定义了一个可实施的负载均衡器。下图说明了不同资源之间的关系:
-![conbine](images\conbine.png)
+![conbine](images/conbine.png)
 
 # 部署
 
@@ -153,11 +153,11 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653294760(1)](images\1653294760(1).jpg)
+![1653294760(1)](images/1653294760(1).jpg)
 
 
 
-![1653294818(1)](images\1653294818(1).jpg)
+![1653294818(1)](images/1653294818(1).jpg)
 
 
 
@@ -531,11 +531,11 @@ kubectl delete gateways.gateway.networking.k8s.io  -n istio bookinfo
 
 kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
-![1653372013(1)](images\1653372013(1).jpg)
+![1653372013(1)](images/1653372013(1).jpg)
 
 
 
-![1653372063(1)](images\1653372063(1).jpg)
+![1653372063(1)](images/1653372063(1).jpg)
 
 
 
@@ -610,9 +610,9 @@ kubectl delete gateways.gateway.networking.k8s.io  -n istio bookinfo
 
 kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
-![1653373628(1)](images\1653373628(1).jpg)
+![1653373628(1)](images/1653373628(1).jpg)
 
-![1653373670(1)](images\1653373670(1).jpg)
+![1653373670(1)](images/1653373670(1).jpg)
 
 
 
@@ -710,9 +710,9 @@ kubectl delete -n istio-system secret bookinfo-gateway-secret
 
 
 
-![1653376731(1)](images\1653376731(1).jpg)
+![1653376731(1)](images/1653376731(1).jpg)
 
-![1653376778(1)](images\1653376778(1).jpg)
+![1653376778(1)](images/1653376778(1).jpg)
 
 
 
@@ -867,11 +867,11 @@ kubectl delete tcproutes.gateway.networking.k8s.io echo -n istio
 
 kubectl delete -f tcp-echo-services.yaml -n istio
 
-![1653379371(1)](images\1653379371(1).jpg)
+![1653379371(1)](images/1653379371(1).jpg)
 
-![1653379420(1)](images\1653379420(1).jpg)
+![1653379420(1)](images/1653379420(1).jpg)
 
-![1653379458(1)](images\1653379458(1).jpg)
+![1653379458(1)](images/1653379458(1).jpg)
 
 
 
@@ -958,9 +958,9 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653380993(1)](images\1653380993(1).jpg)
+![1653380993(1)](images/1653380993(1).jpg)
 
-![1653381022(1)](images\1653381022(1).jpg)
+![1653381022(1)](images/1653381022(1).jpg)
 
 ##### namespaces
 
@@ -1497,15 +1497,15 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 kubectl delete -n istio-system secret bookinfo-gateway-secret
 
-![1653456209(1)](images\1653456209(1).jpg)
+![1653456209(1)](images/1653456209(1).jpg)
 
-![1653456251(1)](images\1653456251(1).jpg)
+![1653456251(1)](images/1653456251(1).jpg)
 
 
 
-![1653456301(1)](images\1653456301(1).jpg)
+![1653456301(1)](images/1653456301(1).jpg)
 
-![1653456334(1)](images\1653456334(1).jpg)
+![1653456334(1)](images/1653456334(1).jpg)
 
 ###### Passthrough
 
@@ -1687,11 +1687,11 @@ kubectl delete secret nginx-server-certs   -n istio
 
 https://nginx.example.com:32388/
 
-![1653457342(1)](images\1653457342(1).jpg)
+![1653457342(1)](images/1653457342(1).jpg)
 
-![1653457408(1)](images\1653457408(1).jpg)
+![1653457408(1)](images/1653457408(1).jpg)
 
-![1653457437(1)](images\1653457437(1).jpg)
+![1653457437(1)](images/1653457437(1).jpg)
 
 
 
@@ -1942,9 +1942,9 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653461571(1)](images\1653461571(1).jpg)
+![1653461571(1)](images/1653461571(1).jpg)
 
-![1653461614(1)](images\1653461614(1).jpg)
+![1653461614(1)](images/1653461614(1).jpg)
 
 
 
@@ -2111,7 +2111,7 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 curl http://bookinfo.com:32542/productpage -H "test: test"
 
-![1653463701(1)](images\1653463701(1).jpg)
+![1653463701(1)](images/1653463701(1).jpg)
 
 
 
@@ -2195,7 +2195,7 @@ curl http://bookinfo.com:32542/productpage -H "test: value123"
 
 
 
-![1653463845(1)](images\1653463845(1).jpg)
+![1653463845(1)](images/1653463845(1).jpg)
 
 
 
@@ -2270,7 +2270,7 @@ kubectl delete gateways.gateway.networking.k8s.io  -n istio-system bookinfo
 
 kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
-![1653465066(1)](images\1653465066(1).jpg)
+![1653465066(1)](images/1653465066(1).jpg)
 
 
 
@@ -2351,7 +2351,7 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653465276(1)](images\1653465276(1).jpg)
+![1653465276(1)](images/1653465276(1).jpg)
 
 
 
@@ -2430,7 +2430,7 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653465367(1)](images\1653465367(1).jpg)
+![1653465367(1)](images/1653465367(1).jpg)
 
 
 
@@ -2509,7 +2509,7 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653465467(1)](images\1653465467(1).jpg)
+![1653465467(1)](images/1653465467(1).jpg)
 
 
 
@@ -2591,7 +2591,7 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 http://bookinfo.com:32542/productpage?test=test
 
-![1653466080(1)](images\1653466080(1).jpg)
+![1653466080(1)](images/1653466080(1).jpg)
 
 
 
@@ -2673,7 +2673,7 @@ http://bookinfo.com:32542/productpage?test=value123
 
 
 
-![1653466196(1)](images\1653466196(1).jpg)
+![1653466196(1)](images/1653466196(1).jpg)
 
 
 
@@ -3151,7 +3151,7 @@ INFO:werkzeug:127.0.0.6 - - [25/May/2022 08:58:54] "GET /productpage HTTP/1.1" 2
 
 
 
-![1653469220(1)](images\1653469220(1).jpg)
+![1653469220(1)](images/1653469220(1).jpg)
 
 
 
@@ -3236,7 +3236,7 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653533752(1)](images\1653533752(1).jpg)
+![1653533752(1)](images/1653533752(1).jpg)
 
 ###### remove
 
@@ -3317,7 +3317,7 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653533885(1)](images\1653533885(1).jpg)
+![1653533885(1)](images/1653533885(1).jpg)
 
 ###### set
 
@@ -3400,7 +3400,7 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653534001(1)](images\1653534001(1).jpg)
+![1653534001(1)](images/1653534001(1).jpg)
 
 ##### extensionRef
 
@@ -3918,7 +3918,7 @@ kubectl delete gateways.gateway.networking.k8s.io  -n istio-system bookinfo
 
 kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
-![1653615940(1)](images\1653615940(1).jpg)
+![1653615940(1)](images/1653615940(1).jpg)
 
 remove
 
@@ -3999,7 +3999,7 @@ kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
 
 
-![1653616052(1)](images\1653616052(1).jpg)
+![1653616052(1)](images/1653616052(1).jpg)
 
 
 
@@ -4082,7 +4082,7 @@ kubectl delete gateways.gateway.networking.k8s.io  -n istio-system bookinfo
 
 kubectl delete httproutes.gateway.networking.k8s.io -n istio bookinfo
 
-![1653616173(1)](images\1653616173(1).jpg)
+![1653616173(1)](images/1653616173(1).jpg)
 
 
 
@@ -5051,7 +5051,7 @@ kubectl delete secret nginx-server-certs   -n istio
 
 https://nginx.example.com:32388/
 
-![1653542757(1)](images\1653542757(1).jpg)
+![1653542757(1)](images/1653542757(1).jpg)
 
 
 
@@ -5766,13 +5766,13 @@ kubectl delete tcproutes.gateway.networking.k8s.io echo -n istio
 
 kubectl delete -f tcp-echo-services.yaml -n istio
 
-![1653546521(1)](images\1653546521(1).jpg)
+![1653546521(1)](images/1653546521(1).jpg)
 
-![1653546568(1)](images\1653546568(1).jpg)
+![1653546568(1)](images/1653546568(1).jpg)
 
 
 
-![1653546606(1)](images\1653546606(1).jpg)
+![1653546606(1)](images/1653546606(1).jpg)
 
 #### sectionName
 
@@ -6429,7 +6429,7 @@ kubectl delete tcproutes.gateway.networking.k8s.io echo -n istio
 
 kubectl delete -f tcp-echo-services-v1-v2.yaml -n istio
 
-![1653547597(1)](images\1653547597(1).jpg)
+![1653547597(1)](images/1653547597(1).jpg)
 
 
 

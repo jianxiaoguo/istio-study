@@ -193,7 +193,7 @@ data:
   meshNetworks: 'networks: {}'
 ```
 
-![1631591557(1)](images\1631591557(1).jpg)
+![1631591557(1)](images/1631591557(1).jpg)
 
 
 
@@ -233,7 +233,7 @@ data:
   meshNetworks: 'networks: {}'
 ```
 
-![1631592151(1)](images\1631592151(1).jpg)
+![1631592151(1)](images/1631592151(1).jpg)
 
 ### tcpKeepalive
 
@@ -305,7 +305,7 @@ spec:
           probes: 10
 ```
 
-![1631592551(1)](images\1631592551(1).jpg)
+![1631592551(1)](images/1631592551(1).jpg)
 
 ###  ingressClass 
 
@@ -629,7 +629,7 @@ spec:
     accessLogFormat : "[%START_TIME%] \"%REQ(:METHOD)% %REQ(X-ENVOY-ORIGINAL-PATH?:PATH)% %PROTOCOL%\""
 ```
 
-![1631599173(1)](images\1631599173(1).jpg)
+![1631599173(1)](images/1631599173(1).jpg)
 
 
 
@@ -658,13 +658,13 @@ spec:
 
 
 
-![1631599639(1)](images\1631599639(1).jpg)
+![1631599639(1)](images/1631599639(1).jpg)
 
 
 
  kubectl logs -f -n istio ratings-v1-688d667b55-zzjtq -c istio-proxy --tail 10
 
-![1631599565(1)](images\1631599565(1).jpg)
+![1631599565(1)](images/1631599565(1).jpg)
 
 ### enableEnvoyAccessLogService 
 

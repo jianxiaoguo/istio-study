@@ -194,7 +194,7 @@ tap_config:
       - streaming_admin: {}
 ```
 
-![1](49images\1.png)
+![1](49images/1.png)
 
 post body示例
 
@@ -326,7 +326,7 @@ spec:
 
 
 
-![2](49images\2.jpg)
+![2](49images/2.jpg)
 
 #### 3.2.1.2format
 

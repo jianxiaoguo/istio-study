@@ -1,6 +1,6 @@
 # 学习目标
 
-![1618892822(1)](images\1618892822(1).jpg)
+![1618892822(1)](images/1618892822(1).jpg)
 
 
 
@@ -131,7 +131,7 @@ kubectl delete RequestAuthentication productpage -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628746225(1)](images\1628746225(1).jpg)
+![1628746225(1)](images/1628746225(1).jpg)
 
 
 
@@ -258,7 +258,7 @@ kubectl delete RequestAuthentication productpage -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628827835(3)](images\1628827835(3).jpg)
+![1628827835(3)](images/1628827835(3).jpg)
 
 
 
@@ -380,7 +380,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 
 
 
 
-![1628827891(1)](images\1628827891(1).jpg)
+![1628827891(1)](images/1628827891(1).jpg)
 
 
 
@@ -532,7 +532,7 @@ kubectl delete -f jwt-server.yaml -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628828358(1)](images\1628828358(1).jpg)
+![1628828358(1)](images/1628828358(1).jpg)
 
 
 
@@ -648,7 +648,7 @@ kubectl delete RequestAuthentication productpage -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628828467(1)](images\1628828467(1).jpg)
+![1628828467(1)](images/1628828467(1).jpg)
 
 
 
@@ -770,7 +770,7 @@ kubectl delete RequestAuthentication productpage -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628828520(1)](images\1628828520(1).jpg)
+![1628828520(1)](images/1628828520(1).jpg)
 
 
 
@@ -888,7 +888,7 @@ kubectl delete RequestAuthentication productpage -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628828582(1)](images\1628828582(1).jpg)
+![1628828582(1)](images/1628828582(1).jpg)
 
 
 
@@ -1005,7 +1005,7 @@ kubectl delete RequestAuthentication productpage -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628828669(1)](images\1628828669(1).jpg)
+![1628828669(1)](images/1628828669(1).jpg)
 
 
 
@@ -1220,7 +1220,7 @@ kubectl delete  RequestAuthentication   jwt-example -n istio-system
 
  kubectl port-forward --address 0.0.0.0 -n istio-system istio-ingressgateway-8657768d87-bd767 15002:15000
 
-![1628828917(1)](images\1628828917(1).jpg)
+![1628828917(1)](images/1628828917(1).jpg)
 
 
 

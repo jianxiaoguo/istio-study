@@ -29,7 +29,7 @@ Gateway API 引入了一些新的资源类型：
 
 # 资源之前的关系
 
-![v2-3eafa9788be3e6736a4b5b3ddecbf7db_1440w](images\v2-3eafa9788be3e6736a4b5b3ddecbf7db_1440w.jpg)
+![v2-3eafa9788be3e6736a4b5b3ddecbf7db_1440w](images/v2-3eafa9788be3e6736a4b5b3ddecbf7db_1440w.jpg)
 
 
 
@@ -280,9 +280,9 @@ kubectl delete gatewayclass istio -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio-system istio-ingressgateway-746c595f8b-bszqn 15000:15000
 
-![1629944536(1)](images\1629944536(1).jpg)
+![1629944536(1)](images/1629944536(1).jpg)
 
-![1629944638(1)](images\1629944638(1).jpg)
+![1629944638(1)](images/1629944638(1).jpg)
 
 
 
@@ -491,9 +491,9 @@ kubectl delete gatewayclass istio -n istio-system
 
 
 
-![1629944908(1)](images\1629944908(1).jpg)
+![1629944908(1)](images/1629944908(1).jpg)
 
-![1629944950(1)](images\1629944950(1).jpg)
+![1629944950(1)](images/1629944950(1).jpg)
 
 
 
@@ -574,11 +574,11 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629945065(1)](images\1629945065(1).jpg)
+![1629945065(1)](images/1629945065(1).jpg)
 
 
 
-![1629945115(1)](images\1629945115(1).jpg)
+![1629945115(1)](images/1629945115(1).jpg)
 
 
 
@@ -659,15 +659,15 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629945215(1)](images\1629945215(1).jpg)
+![1629945215(1)](images/1629945215(1).jpg)
 
-![1629945251(1)](images\1629945251(1).jpg)
+![1629945251(1)](images/1629945251(1).jpg)
 
 
 
 #### port,protocol
 
-![1629869437(1)](images\1629869437(1).jpg)
+![1629869437(1)](images/1629869437(1).jpg)
 
 ##### http
 
@@ -746,9 +746,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629948906(1)](images\1629948906(1).jpg)
+![1629948906(1)](images/1629948906(1).jpg)
 
-![1629948959(1)](images\1629948959(1).jpg)
+![1629948959(1)](images/1629948959(1).jpg)
 
 
 
@@ -845,9 +845,9 @@ kubectl delete gatewayclass istio -n istio-system
 
 kubectl delete -n istio-system secret bookinfo-gateway-secret
 
-![1629949188(1)](images\1629949188(1).jpg)
+![1629949188(1)](images/1629949188(1).jpg)
 
-![1629949248(1)](images\1629949248(1).jpg)
+![1629949248(1)](images/1629949248(1).jpg)
 
 
 
@@ -1002,13 +1002,13 @@ kubectl delete TCPRoute echo -n istio
 
 kubectl delete gateways.networking.x-k8s.io echo -n istio-system
 
-![1629949918(1)](images\1629949918(1).jpg)
+![1629949918(1)](images/1629949918(1).jpg)
 
 
 
-![1629949728(1)](images\1629949728(1).jpg)
+![1629949728(1)](images/1629949728(1).jpg)
 
-![1629949778(1)](images\1629949778(1).jpg)
+![1629949778(1)](images/1629949778(1).jpg)
 
 
 
@@ -1135,13 +1135,13 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629950256(1)](images\1629950256(1).jpg)
+![1629950256(1)](images/1629950256(1).jpg)
 
-![1629950305(1)](images\1629950305(1).jpg)
+![1629950305(1)](images/1629950305(1).jpg)
 
-![1629950346(1)](images\1629950346(1).jpg)
+![1629950346(1)](images/1629950346(1).jpg)
 
-![1629950378(1)](images\1629950378(1).jpg)
+![1629950378(1)](images/1629950378(1).jpg)
 
 
 
@@ -1227,9 +1227,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629950489(1)](images\1629950489(1).jpg)
+![1629950489(1)](images/1629950489(1).jpg)
 
-![1629950540(1)](images\1629950540(1).jpg)
+![1629950540(1)](images/1629950540(1).jpg)
 
 
 
@@ -1322,9 +1322,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629950605(1)](images\1629950605(1).jpg)
+![1629950605(1)](images/1629950605(1).jpg)
 
-![1629950660(1)](images\1629950660(1).jpg)
+![1629950660(1)](images/1629950660(1).jpg)
 
 
 
@@ -1411,9 +1411,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629950744(1)](images\1629950744(1).jpg)
+![1629950744(1)](images/1629950744(1).jpg)
 
-![1629950782(1)](images\1629950782(1).jpg)
+![1629950782(1)](images/1629950782(1).jpg)
 
 
 
@@ -1596,7 +1596,7 @@ kubectl delete gatewayclass istio -n istio-system
 
 
 
-![1629951648(1)](images\1629951648(1).jpg)
+![1629951648(1)](images/1629951648(1).jpg)
 
 
 
@@ -1697,11 +1697,11 @@ kubectl delete gatewayclass istio -n istio-system
 
 kubectl delete -n istio-system secret bookinfo-gateway-secret
 
-![1629952348(1)](images\1629952348(1).jpg)
+![1629952348(1)](images/1629952348(1).jpg)
 
-![1629952401(1)](images\1629952401(1).jpg)
+![1629952401(1)](images/1629952401(1).jpg)
 
-![1629952490(1)](images\1629952490(1).jpg)
+![1629952490(1)](images/1629952490(1).jpg)
 
 
 
@@ -1793,13 +1793,13 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629952904(1)](images\1629952904(1).jpg)
+![1629952904(1)](images/1629952904(1).jpg)
 
-![1629952973(1)](images\1629952973(1).jpg)
+![1629952973(1)](images/1629952973(1).jpg)
 
-![1629953009(1)](images\1629953009(1).jpg)
+![1629953009(1)](images/1629953009(1).jpg)
 
-![1629953042(1)](images\1629953042(1).jpg)
+![1629953042(1)](images/1629953042(1).jpg)
 
 
 
@@ -1979,11 +1979,11 @@ kubectl delete -f nginx-deploy.yaml -n istio
 
 kubectl delete secret nginx-server-certs   -n istio
 
-![1629953369(1)](images\1629953369(1).jpg)
+![1629953369(1)](images/1629953369(1).jpg)
 
-![1629953429(1)](images\1629953429(1).jpg)
+![1629953429(1)](images/1629953429(1).jpg)
 
-![1629953457(1)](images\1629953457(1).jpg)
+![1629953457(1)](images/1629953457(1).jpg)
 
 ##### options
 
@@ -2239,13 +2239,13 @@ kubectl delete -n istio-system secret bookinfo-gateway-secret
 
 kubectl delete -n istio-system secret bookinfo-gateway-secret-http
 
-![1629954613](images\1629954613.jpg)
+![1629954613](images/1629954613.jpg)
 
-![1629954649(1)](images\1629954649(1).jpg)
+![1629954649(1)](images/1629954649(1).jpg)
 
-![1629954682(1)](images\1629954682(1).jpg)
+![1629954682(1)](images/1629954682(1).jpg)
 
-![1629954712(1)](images\1629954712(1).jpg)
+![1629954712(1)](images/1629954712(1).jpg)
 
 
 
@@ -2334,9 +2334,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629956695(1)](images\1629956695(1).jpg)
+![1629956695(1)](images/1629956695(1).jpg)
 
-![1629956739(1)](images\1629956739(1).jpg)
+![1629956739(1)](images/1629956739(1).jpg)
 
 
 
@@ -2420,9 +2420,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629956802(1)](images\1629956802(1).jpg)
+![1629956802(1)](images/1629956802(1).jpg)
 
-![1629956861(1)](images\1629956861(1).jpg)
+![1629956861(1)](images/1629956861(1).jpg)
 
 
 
@@ -2600,11 +2600,11 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629957528(1)](images\1629957528(1).jpg)
+![1629957528(1)](images/1629957528(1).jpg)
 
 
 
-![1629957591(1)](images\1629957591(1).jpg)
+![1629957591(1)](images/1629957591(1).jpg)
 
 
 
@@ -2685,9 +2685,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629957638(1)](images\1629957638(1).jpg)
+![1629957638(1)](images/1629957638(1).jpg)
 
-![1629957687(1)](images\1629957687(1).jpg)
+![1629957687(1)](images/1629957687(1).jpg)
 
 
 
@@ -2870,9 +2870,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629958686](images\1629958686.jpg)
+![1629958686](images/1629958686.jpg)
 
-![1629958737(1)](images\1629958737(1).jpg)
+![1629958737(1)](images/1629958737(1).jpg)
 
 
 
@@ -2958,9 +2958,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629958808(1)](images\1629958808(1).jpg)
+![1629958808(1)](images/1629958808(1).jpg)
 
-![1629958866(1)](images\1629958866(1).jpg)
+![1629958866(1)](images/1629958866(1).jpg)
 
 
 
@@ -3049,9 +3049,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629958916(1)](images\1629958916(1).jpg)
+![1629958916(1)](images/1629958916(1).jpg)
 
-![1629958952(1)](images\1629958952(1).jpg)
+![1629958952(1)](images/1629958952(1).jpg)
 
 
 
@@ -3412,9 +3412,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629959393(1)](images\1629959393(1).jpg)
+![1629959393(1)](images/1629959393(1).jpg)
 
-![1629959464(1)](images\1629959464(1).jpg)
+![1629959464(1)](images/1629959464(1).jpg)
 
 
 
@@ -3503,11 +3503,11 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629959506(1)](images\1629959506(1).jpg)
+![1629959506(1)](images/1629959506(1).jpg)
 
 
 
-![1629959548(1)](images\1629959548(1).jpg)
+![1629959548(1)](images/1629959548(1).jpg)
 
 
 
@@ -3597,9 +3597,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629959599(1)](images\1629959599(1).jpg)
+![1629959599(1)](images/1629959599(1).jpg)
 
-![1629959648(1)](images\1629959648(1).jpg)
+![1629959648(1)](images/1629959648(1).jpg)
 
 
 
@@ -3853,9 +3853,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629959771(1)](images\1629959771(1).jpg)
+![1629959771(1)](images/1629959771(1).jpg)
 
-![1629959801(1)](images\1629959801(1).jpg)
+![1629959801(1)](images/1629959801(1).jpg)
 
 
 
@@ -4008,9 +4008,9 @@ kubectl delete gatewayclass istio -n istio-system
 
 kubectl delete -f productpage-deploy-v2.yaml -n istio
 
-![1629959856(1)](images\1629959856(1).jpg)
+![1629959856(1)](images/1629959856(1).jpg)
 
-![1629959902(1)](images\1629959902(1).jpg)
+![1629959902(1)](images/1629959902(1).jpg)
 
 
 
@@ -4105,11 +4105,11 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629960117(1)](images\1629960117(1).jpg)
+![1629960117(1)](images/1629960117(1).jpg)
 
 
 
-![1629960186(1)](images\1629960186(1).jpg)
+![1629960186(1)](images/1629960186(1).jpg)
 
 
 
@@ -4190,9 +4190,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629960245(1)](images\1629960245(1).jpg)
+![1629960245(1)](images/1629960245(1).jpg)
 
-![1629960286(1)](images\1629960286(1).jpg)
+![1629960286(1)](images/1629960286(1).jpg)
 
 
 
@@ -4285,9 +4285,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629963486(1)](images\1629963486(1).jpg)
+![1629963486(1)](images/1629963486(1).jpg)
 
-![1629963534(1)](images\1629963534(1).jpg)
+![1629963534(1)](images/1629963534(1).jpg)
 
 
 
@@ -4370,9 +4370,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629963578(1)](images\1629963578(1).jpg)
+![1629963578(1)](images/1629963578(1).jpg)
 
-![1629963620(1)](images\1629963620(1).jpg)
+![1629963620(1)](images/1629963620(1).jpg)
 
 
 
@@ -4455,9 +4455,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629963661(1)](images\1629963661(1).jpg)
+![1629963661(1)](images/1629963661(1).jpg)
 
-![1629963695(1)](images\1629963695(1).jpg)
+![1629963695(1)](images/1629963695(1).jpg)
 
 
 
@@ -4551,9 +4551,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629963741(1)](images\1629963741(1).jpg)
+![1629963741(1)](images/1629963741(1).jpg)
 
-![1629963782(1)](images\1629963782(1).jpg)
+![1629963782(1)](images/1629963782(1).jpg)
 
 
 
@@ -4639,9 +4639,9 @@ kubectl delete gateways.networking.x-k8s.io bookinfo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629963826(1)](images\1629963826(1).jpg)
+![1629963826(1)](images/1629963826(1).jpg)
 
-![1629963870(1)](images\1629963870(1).jpg)
+![1629963870(1)](images/1629963870(1).jpg)
 
 
 
@@ -4751,9 +4751,9 @@ kubectl delete -n istio-system secret bookinfo-gateway-secret
 
 kubectl delete -n istio-system secret bookinfo-gateway-secret-http
 
-![1629964053(1)](images\1629964053(1).jpg)
+![1629964053(1)](images/1629964053(1).jpg)
 
-![1629964113(1)](images\1629964113(1).jpg)
+![1629964113(1)](images/1629964113(1).jpg)
 
 
 
@@ -4912,9 +4912,9 @@ kubectl delete gateways.networking.x-k8s.io echo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629964228(1)](images\1629964228(1).jpg)
+![1629964228(1)](images/1629964228(1).jpg)
 
-![1629964270(1)](images\1629964270(1).jpg)
+![1629964270(1)](images/1629964270(1).jpg)
 
 
 
@@ -5072,11 +5072,11 @@ kubectl delete gateways.networking.x-k8s.io echo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629964332(1)](images\1629964332(1).jpg)
+![1629964332(1)](images/1629964332(1).jpg)
 
-![1629964362(1)](images\1629964362(1).jpg)
+![1629964362(1)](images/1629964362(1).jpg)
 
-![1629964391(1)](images\1629964391(1).jpg)
+![1629964391(1)](images/1629964391(1).jpg)
 
 
 
@@ -5564,11 +5564,11 @@ kubectl delete gateways.networking.x-k8s.io echo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629967016(1)](images\1629967016(1).jpg)
+![1629967016(1)](images/1629967016(1).jpg)
 
-![1629967054(1)](images\1629967054(1).jpg)
+![1629967054(1)](images/1629967054(1).jpg)
 
-![1629967086(1)](images\1629967086(1).jpg)
+![1629967086(1)](images/1629967086(1).jpg)
 
 
 
@@ -5785,7 +5785,7 @@ kubectl delete gateways.networking.x-k8s.io echo -n istio-system
 
 kubectl delete gatewayclass istio -n istio-system
 
-![1629967224](images\1629967224.jpg)
+![1629967224](images/1629967224.jpg)
 
 
 
@@ -6145,9 +6145,9 @@ kubectl delete -f nginx-deploy.yaml -n istio
 
 kubectl delete secret nginx-server-certs   -n istio
 
-![1629967383(1)](images\1629967383(1).jpg)
+![1629967383(1)](images/1629967383(1).jpg)
 
-![1629967420(1)](images\1629967420(1).jpg)
+![1629967420(1)](images/1629967420(1).jpg)
 
 
 
@@ -6334,11 +6334,11 @@ kubectl delete -f nginx-deploy.yaml -n istio
 
 kubectl delete secret nginx-server-certs   -n istio
 
-![1629967499(1)](images\1629967499(1).jpg)
+![1629967499(1)](images/1629967499(1).jpg)
 
-![1629967531(1)](images\1629967531(1).jpg)
+![1629967531(1)](images/1629967531(1).jpg)
 
-![1629967558(1)](images\1629967558(1).jpg)
+![1629967558(1)](images/1629967558(1).jpg)
 
 
 
@@ -6732,13 +6732,13 @@ kubectl delete -f nginx-deploy.yaml -n istio
 
 kubectl delete secret nginx-server-certs   -n istio
 
-![1629968092(1)](images\1629968092(1).jpg)
+![1629968092(1)](images/1629968092(1).jpg)
 
-![1629968124(1)](images\1629968124(1).jpg)
+![1629968124(1)](images/1629968124(1).jpg)
 
 
 
-![1629968154(1)](images\1629968154(1).jpg)
+![1629968154(1)](images/1629968154(1).jpg)
 
 
 
@@ -6983,7 +6983,7 @@ kubectl delete secret nginx-server-certs   -n istio
 
 kubectl delete -f nginx-deploy-v2.yaml -n istio
 
-![1629968219(1)](images\1629968219(1).jpg)
+![1629968219(1)](images/1629968219(1).jpg)
 
 
 
@@ -7184,13 +7184,13 @@ kubectl delete -f nginx-deploy.yaml -n istio
 
 kubectl delete secret nginx-server-certs   -n istio
 
-![1629968696(1)](images\1629968696(1).jpg)
+![1629968696(1)](images/1629968696(1).jpg)
 
 
 
-![1629968624(1)](images\1629968624(1).jpg)
+![1629968624(1)](images/1629968624(1).jpg)
 
-![1629968657(1)](images\1629968657(1).jpg)
+![1629968657(1)](images/1629968657(1).jpg)
 
 semi-star
 

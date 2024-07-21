@@ -166,7 +166,7 @@ spec:
   phase: STATS	
 ```
 
-![1](images\1.jpg)
+![1](images/1.jpg)
 
 
 
@@ -283,7 +283,7 @@ spec:
   phase: STATS	
 ```
 
-![2](images\2.jpg)
+![2](images/2.jpg)
 
 
 
@@ -315,7 +315,7 @@ spec:
   sha256: d3f2d1b3c0ae26100e36a6ddb901ca55732aeea79329e43a14686c1338a1ed03
 ```
 
-![3](images\3.jpg)
+![3](images/3.jpg)
 
 ### 错误：
 
@@ -446,7 +446,7 @@ spec:
 
 wasm plugin configuration内容：
 
-![8](images\8.png)
+![8](images/8.png)
 
 wp-productpage-pluginConfig.yaml
 
@@ -527,7 +527,7 @@ spec:
 
 
 
-![4](images\4.jpg)
+![4](images/4.jpg)
 
 
 
@@ -553,7 +553,7 @@ spec:
 
 
 
-![5](images\5.jpg)
+![5](images/5.jpg)
 
 
 
@@ -579,7 +579,7 @@ spec:
 
 
 
-![6](images\6.jpg)
+![6](images/6.jpg)
 
 
 
@@ -603,7 +603,7 @@ spec:
   phase: STATS
 ```
 
-![7](images\7.jpg)
+![7](images/7.jpg)
 
 
 
@@ -649,5 +649,5 @@ spec:
   priority: 20
 ```
 
-![9](images\9.png)
+![9](images/9.png)
 

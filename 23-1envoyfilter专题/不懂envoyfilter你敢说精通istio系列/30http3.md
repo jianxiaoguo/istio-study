@@ -42,7 +42,7 @@ QUIC（Quick UDP Internet Connections）是一种实验性传输层网络协议�
 
 # 4http各版本架构
 
-![http](30images\http.webp)
+![http](30images/http.webp)
 
 # 5http3案例
 

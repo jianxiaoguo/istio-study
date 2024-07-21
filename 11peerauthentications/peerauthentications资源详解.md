@@ -1,6 +1,6 @@
 # 学习目标
 
-![1618889609(1)](images\1618889609(1).jpg)
+![1618889609(1)](images/1618889609(1).jpg)
 
 # 什么是PeerAuthentication
 
@@ -43,11 +43,11 @@ spec:
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628670845(1)](images\1628670845(1).jpg)
+![1628670845(1)](images/1628670845(1).jpg)
 
 
 
-![1628739068(1)](images\1628739068(1).jpg)
+![1628739068(1)](images/1628739068(1).jpg)
 
 
 
@@ -151,11 +151,11 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 
 
 没有匹配的tlsMode: "istio"所以访问失败
 
-![1628739181(1)](images\1628739181(1).jpg)
+![1628739181(1)](images/1628739181(1).jpg)
 
 
 
-![1628739255(1)](images\1628739255(1).jpg)
+![1628739255(1)](images/1628739255(1).jpg)
 
 
 
@@ -247,11 +247,11 @@ kubectl delete vs bookinfo -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628739401(1)](images\1628739401(1).jpg)
+![1628739401(1)](images/1628739401(1).jpg)
 
 
 
-![1628739437(1)](images\1628739437(1).jpg)
+![1628739437(1)](images/1628739437(1).jpg)
 
 
 
@@ -346,9 +346,9 @@ kubectl delete vs bookinfo -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628739568(1)](images\1628739568(1).jpg)
+![1628739568(1)](images/1628739568(1).jpg)
 
-![1628739689(1)](images\1628739689(1).jpg)
+![1628739689(1)](images/1628739689(1).jpg)
 
 
 
@@ -473,7 +473,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628740553(1)](images\1628740553(1).jpg)
+![1628740553(1)](images/1628740553(1).jpg)
 
 
 
@@ -587,7 +587,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628740858(1)](images\1628740858(1).jpg)
+![1628740858(1)](images/1628740858(1).jpg)
 
 #### PERMISSIVE
 
@@ -680,7 +680,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628741173(1)](images\1628741173(1).jpg)
+![1628741173(1)](images/1628741173(1).jpg)
 
 #### STRICT
 
@@ -773,7 +773,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628740702(1)](images\1628740702(1).jpg)
+![1628740702(1)](images/1628740702(1).jpg)
 
 
 
@@ -890,5 +890,5 @@ kubectl delete PeerAuthentication default -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-q8xzp 15000:15000
 
-![1628741274(1)](images\1628741274(1).jpg)
+![1628741274(1)](images/1628741274(1).jpg)
 

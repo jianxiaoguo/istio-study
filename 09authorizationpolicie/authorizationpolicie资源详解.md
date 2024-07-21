@@ -1,6 +1,6 @@
 # 学习目标
 
-# ![1618469480(1)](images\1618469609(1).jpg)
+# ![1618469480(1)](images/1618469609(1).jpg)
 
 # 9-1什么是AuthorizationPolicy
 
@@ -10,7 +10,7 @@
 
  Authorization policies support `ALLOW`, `DENY` and `CUSTOM` actions. The policy precedence is `CUSTOM`, `DENY` and `ALLOW`. The following graph shows the policy precedence in detail: 
 
-![authz-eval](images\authz-eval.png)
+![authz-eval](images/authz-eval.png)
 
 # 资源详解
 
@@ -115,7 +115,7 @@ kubectl delete AuthorizationPolicy allow-nothing -n istio-system
 
 kubectl delete AuthorizationPolicy allow-nothing -n istio
 
-![1628473489](images\1628473489.jpg)
+![1628473489](images/1628473489.jpg)
 
 
 
@@ -208,7 +208,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete AuthorizationPolicy deny-all -n istio-system
 
-![1628473828(1)](images\1628473828(1).jpg)
+![1628473828(1)](images/1628473828(1).jpg)
 
 
 
@@ -304,7 +304,7 @@ kubectl delete AuthorizationPolicy deny-all -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628474082(1)](images\1628474082(1).jpg)
+![1628474082(1)](images/1628474082(1).jpg)
 
 
 
@@ -397,7 +397,7 @@ kubectl delete AuthorizationPolicy allow-all -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628474232(1)](images\1628474232(1).jpg)
+![1628474232(1)](images/1628474232(1).jpg)
 
 
 
@@ -525,7 +525,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628477919(1)](images\1628477919(1).jpg)
+![1628477919(1)](images/1628477919(1).jpg)
 
 
 
@@ -626,7 +626,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628478113(1)](images\1628478113(1).jpg)
+![1628478113(1)](images/1628478113(1).jpg)
 
 
 
@@ -731,7 +731,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628478188(1)](images\1628478188(1).jpg)
+![1628478188(1)](images/1628478188(1).jpg)
 
 
 
@@ -989,7 +989,7 @@ kubectl delete -f opa-deployment.yaml -n istio
 
 
 
-![1628478699(1)](images\1628478699(1).jpg)
+![1628478699(1)](images/1628478699(1).jpg)
 
 
 
@@ -1137,7 +1137,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628478955(1)](images\1628478955(1).jpg)
+![1628478955(1)](images/1628478955(1).jpg)
 
 
 
@@ -1258,7 +1258,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628479095(1)](images\1628479095(1).jpg)
+![1628479095(1)](images/1628479095(1).jpg)
 
 
 
@@ -1430,7 +1430,7 @@ kubectl delete -f ra-example-productpage.yaml -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628480840(1)](images\1628480840(1).jpg)
+![1628480840(1)](images/1628480840(1).jpg)
 
 
 
@@ -1603,7 +1603,7 @@ kubectl delete -f ra-example-productpage.yaml -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628480970(1)](images\1628480970(1).jpg)
+![1628480970(1)](images/1628480970(1).jpg)
 
 
 
@@ -1770,7 +1770,7 @@ kubectl delete -f ra-example-productpage.yaml -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628481068(1)](images\1628481068(1).jpg)
+![1628481068(1)](images/1628481068(1).jpg)
 
 
 
@@ -1943,7 +1943,7 @@ kubectl delete -f ra-example-productpage.yaml -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628481193(1)](images\1628481193(1).jpg)
+![1628481193(1)](images/1628481193(1).jpg)
 
 
 
@@ -2063,7 +2063,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628481322(1)](images\1628481322(1).jpg)
+![1628481322(1)](images/1628481322(1).jpg)
 
 
 
@@ -2181,7 +2181,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628481414(1)](images\1628481414(1).jpg)
+![1628481414(1)](images/1628481414(1).jpg)
 
 
 
@@ -2304,7 +2304,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 
 
-![1628481581(1)](images\1628481581(1).jpg)
+![1628481581(1)](images/1628481581(1).jpg)
 
 
 
@@ -2421,7 +2421,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 
 
-![1628481679(1)](images\1628481679(1).jpg)
+![1628481679(1)](images/1628481679(1).jpg)
 
 
 
@@ -2550,7 +2550,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 
 
-![1628481815(1)](images\1628481815(1).jpg)
+![1628481815(1)](images/1628481815(1).jpg)
 
 
 
@@ -2677,7 +2677,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 
 
-![1628481872(1)](images\1628481872(1).jpg)
+![1628481872(1)](images/1628481872(1).jpg)
 
 
 
@@ -2821,7 +2821,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628484022](images\1628484022.jpg)
+![1628484022](images/1628484022.jpg)
 
 
 
@@ -2943,7 +2943,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 15002:15000
 
-![1628484156(1)](images\1628484156(1).jpg)
+![1628484156(1)](images/1628484156(1).jpg)
 
 
 
@@ -3069,7 +3069,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628484261(1)](images\1628484261(1).jpg)
+![1628484261(1)](images/1628484261(1).jpg)
 
 
 
@@ -3193,7 +3193,7 @@ kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 1500
 
 
 
-![1628484393(1)](images\1628484393(1).jpg)
+![1628484393(1)](images/1628484393(1).jpg)
 
 
 
@@ -3319,7 +3319,7 @@ kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 1500
 
 
 
-![1628484440(1)](images\1628484440(1).jpg)
+![1628484440(1)](images/1628484440(1).jpg)
 
 
 
@@ -3443,7 +3443,7 @@ kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 1500
 
 
 
-![1628484665(1)](images\1628484665(1).jpg)
+![1628484665(1)](images/1628484665(1).jpg)
 
 
 
@@ -3565,7 +3565,7 @@ kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 1500
 
 
 
-![1628484711(1)](images\1628484711(1).jpg)
+![1628484711(1)](images/1628484711(1).jpg)
 
 
 
@@ -3687,7 +3687,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 15002:15000
 
-![1628484754(1)](images\1628484754(1).jpg)
+![1628484754(1)](images/1628484754(1).jpg)
 
 
 
@@ -3811,7 +3811,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 15002:15000
 
-![1628484805(1)](images\1628484805(1).jpg)
+![1628484805(1)](images/1628484805(1).jpg)
 
 
 
@@ -3933,7 +3933,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 15002:15000
 
-![1628484847(1)](images\1628484847(1).jpg)
+![1628484847(1)](images/1628484847(1).jpg)
 
 
 
@@ -4057,7 +4057,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 15002:15000
 
-![1628484923(1)](images\1628484923(1).jpg)
+![1628484923(1)](images/1628484923(1).jpg)
 
 
 
@@ -4218,7 +4218,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490152(1)](images\1628490152(1).jpg)
+![1628490152(1)](images/1628490152(1).jpg)
 
 
 
@@ -4346,7 +4346,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490228(1)](images\1628490228(1).jpg)
+![1628490228(1)](images/1628490228(1).jpg)
 
 
 
@@ -4471,7 +4471,7 @@ kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 
 
 
 
-![1628490290(1)](images\1628490290(1).jpg)
+![1628490290(1)](images/1628490290(1).jpg)
 
 
 
@@ -4590,7 +4590,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490344(1)](images\1628490344(1).jpg)
+![1628490344(1)](images/1628490344(1).jpg)
 
 
 
@@ -4719,7 +4719,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490404](images\1628490404.jpg)
+![1628490404](images/1628490404.jpg)
 
 
 
@@ -4848,7 +4848,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490459(1)](images\1628490459(1).jpg)
+![1628490459(1)](images/1628490459(1).jpg)
 
 
 
@@ -4971,7 +4971,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490521(1)](images\1628490521(1).jpg)
+![1628490521(1)](images/1628490521(1).jpg)
 
 
 
@@ -5092,7 +5092,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490583(1)](images\1628490583(1).jpg)
+![1628490583(1)](images/1628490583(1).jpg)
 
 
 
@@ -5216,7 +5216,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490663(1)](images\1628490663(1).jpg)
+![1628490663(1)](images/1628490663(1).jpg)
 
 
 
@@ -5338,7 +5338,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490711(1)](images\1628490711(1).jpg)
+![1628490711(1)](images/1628490711(1).jpg)
 
 
 
@@ -5503,7 +5503,7 @@ kubectl delete -f ra-example-productpage.yaml -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490801(1)](images\1628490801(1).jpg)
+![1628490801(1)](images/1628490801(1).jpg)
 
 
 
@@ -5664,7 +5664,7 @@ kubectl delete -f ra-example-productpage.yaml -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490857(1)](images\1628490857(1).jpg)
+![1628490857(1)](images/1628490857(1).jpg)
 
 
 
@@ -5826,7 +5826,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490932(1)](images\1628490932(1).jpg)
+![1628490932(1)](images/1628490932(1).jpg)
 
 
 
@@ -5984,7 +5984,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628490988(1)](images\1628490988(1).jpg)
+![1628490988(1)](images/1628490988(1).jpg)
 
 
 
@@ -6147,7 +6147,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491081(1)](images\1628491081(1).jpg)
+![1628491081(1)](images/1628491081(1).jpg)
 
 
 
@@ -6304,7 +6304,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491142(1)](images\1628491142(1).jpg)
+![1628491142(1)](images/1628491142(1).jpg)
 
 
 
@@ -6465,7 +6465,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491216(1)](images\1628491216(1).jpg)
+![1628491216(1)](images/1628491216(1).jpg)
 
 
 
@@ -6622,7 +6622,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491281(1)](images\1628491281(1).jpg)
+![1628491281(1)](images/1628491281(1).jpg)
 
 
 
@@ -6746,7 +6746,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491348(1)](images\1628491348(1).jpg)
+![1628491348(1)](images/1628491348(1).jpg)
 
 
 
@@ -6868,7 +6868,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491412(1)](images\1628491412(1).jpg)
+![1628491412(1)](images/1628491412(1).jpg)
 
 
 
@@ -6992,7 +6992,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491491](images\1628491491.jpg)
+![1628491491](images/1628491491.jpg)
 
 
 
@@ -7114,7 +7114,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491553(1)](images\1628491553(1).jpg)
+![1628491553(1)](images/1628491553(1).jpg)
 
 
 
@@ -7240,7 +7240,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491613(1)](images\1628491613(1).jpg)
+![1628491613(1)](images/1628491613(1).jpg)
 
 
 
@@ -7362,7 +7362,7 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491676(1)](images\1628491676(1).jpg)
+![1628491676(1)](images/1628491676(1).jpg)
 
 
 
@@ -7560,17 +7560,17 @@ kubectl delete   AuthorizationPolicy  allow-nothing -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio productpage-v1-659776cb44-rrr87 15000:15000
 
-![1628491814(1)](images\1628491814(1).jpg)
+![1628491814(1)](images/1628491814(1).jpg)
 
 
 
-![1628491866(1)](images\1628491866(1).jpg)
+![1628491866(1)](images/1628491866(1).jpg)
 
 
 
 
 
-![1628491933(1)](images\1628491933(1).jpg)
+![1628491933(1)](images/1628491933(1).jpg)
 
 
 

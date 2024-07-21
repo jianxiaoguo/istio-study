@@ -1,6 +1,6 @@
 # 学习目标
 
-![1620284843(1)](images\1620284843(1).jpg)
+![1620284843(1)](images/1620284843(1).jpg)
 
 # 1什么是WorkloadEntry
 
@@ -142,11 +142,11 @@ kubectl delete workloadentry mongo-wle -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio mongodb-v1-64d4666575-2q7qf 15000:15000
 
-![1629352143(1)](images\1629352143(1).jpg)
+![1629352143(1)](images/1629352143(1).jpg)
 
-![1629352191(1)](images\1629352191(1).jpg)
+![1629352191(1)](images/1629352191(1).jpg)
 
-![1629352224(1)](images\1629352224(1).jpg)
+![1629352224(1)](images/1629352224(1).jpg)
 
 
 
@@ -348,13 +348,13 @@ kubectl  delete dr dr-mongodb -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio mongodb-v1-64d4666575-2q7qf 15000:15000
 
-![1629353020(1)](images\1629353020(1).jpg)
+![1629353020(1)](images/1629353020(1).jpg)
 
-![1629353075(1)](images\1629353075(1).jpg)
+![1629353075(1)](images/1629353075(1).jpg)
 
 
 
-![1629353119(1)](images\1629353119(1).jpg)
+![1629353119(1)](images/1629353119(1).jpg)
 
 
 
@@ -507,7 +507,7 @@ kubectl delete workloadentry mongo-wle -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio mongodb-v1-64d4666575-2q7qf 15000:15000
 
-![1629353954(1)](images\1629353954(1).jpg)
+![1629353954(1)](images/1629353954(1).jpg)
 
 
 
@@ -715,10 +715,10 @@ kubectl port-forward --address 0.0.0.0 -n istio mongodb-v1-64d4666575-2q7qf 1500
 
 
 
-![1629354258(1)](images\1629354258(1).jpg)
+![1629354258(1)](images/1629354258(1).jpg)
 
-![1629354317(1)](images\1629354317(1).jpg)
+![1629354317(1)](images/1629354317(1).jpg)
 
 
 
-![1629354355(1)](images\1629354355(1).jpg)
+![1629354355(1)](images/1629354355(1).jpg)

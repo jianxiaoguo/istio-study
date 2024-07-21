@@ -10,7 +10,7 @@ It is loosely based upon the work of [kube-lego](https://github.com/jetstack/kub
 
 # 架构
 
-![1](images\1.svg)
+![1](images/1.svg)
 
 # 流程
 
@@ -20,7 +20,7 @@ It is loosely based upon the work of [kube-lego](https://github.com/jetstack/kub
 4. 生成网站证书
 5. 将网站证书配置到Ingress
 
-![1](images\1.png)
+![1](images/1.png)
 
 # 安装
 

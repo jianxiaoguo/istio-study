@@ -1,6 +1,6 @@
 学习目标
 
-![1598420573(1)](images\1598420573(1).jpg)
+![1598420573(1)](images/1598420573(1).jpg)
 
 # 7-1什么是DestinationRule
 
@@ -106,7 +106,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627793801(1)](images\1627793801(1).jpg)
+![1627793801(1)](images/1627793801(1).jpg)
 
 
 
@@ -194,7 +194,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete dr productpage -n istio-system
 
-![1627794560(1)](images\1627794560(1).jpg)
+![1627794560(1)](images/1627794560(1).jpg)
 
 
 
@@ -286,7 +286,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627794647(1)](images\1627794647(1).jpg)
+![1627794647(1)](images/1627794647(1).jpg)
 
 
 
@@ -398,7 +398,7 @@ kubectl delete vs  details -n istio
 
 
 
-![1627795009(1)](images\1627795009(1).jpg)
+![1627795009(1)](images/1627795009(1).jpg)
 
 
 
@@ -483,7 +483,7 @@ kubectl delete dr details -n istio
 
 
 
-![1627795176(1)](images\1627795176(1).jpg)
+![1627795176(1)](images/1627795176(1).jpg)
 
 
 
@@ -604,7 +604,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627797926(1)](images\1627797926(1).jpg)
+![1627797926(1)](images/1627797926(1).jpg)
 
 
 
@@ -729,7 +729,7 @@ kubectl delete vs bookinfo -n istio
 
 kubectl delete dr productpage -n istio
 
-![1627800932(1)](images\1627800932(1).jpg)
+![1627800932(1)](images/1627800932(1).jpg)
 
 
 
@@ -853,7 +853,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627961432(1)](images\1627961432(1).jpg)
+![1627961432(1)](images/1627961432(1).jpg)
 
 
 
@@ -965,7 +965,7 @@ kubectl delete dr productpage -n istio
 
 没有http2_protocol_option就是1.1
 
-![1627962002(1)](images\1627962002(1).jpg)
+![1627962002(1)](images/1627962002(1).jpg)
 
 
 
@@ -1063,7 +1063,7 @@ kubectl delete dr productpage -n istio
 
 没有http2_protocol_option就是1.1
 
-![1627961887(1)](images\1627961887(1).jpg)
+![1627961887(1)](images/1627961887(1).jpg)
 
 
 
@@ -1161,7 +1161,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627961807(1)](images\1627961807(1).jpg)
+![1627961807(1)](images/1627961807(1).jpg)
 
 
 
@@ -1304,11 +1304,11 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627963643(1)](images\1627963643(1).jpg)
+![1627963643(1)](images/1627963643(1).jpg)
 
 
 
-![1627963700(1)](images\1627963700(1).jpg)
+![1627963700(1)](images/1627963700(1).jpg)
 
 
 
@@ -1428,13 +1428,13 @@ kubectl delete dr details -n istio
 
 kubectl port-forward --address 0.0.0.0 -n istio details-v1-79f774bdb9-jbvb7 15001:15000
 
-![1627964085(1)](images\1627964085(1).jpg)
+![1627964085(1)](images/1627964085(1).jpg)
 
 
 
 
 
-![1627963921(1)](images\1627963921(1).jpg)
+![1627963921(1)](images/1627963921(1).jpg)
 
 
 
@@ -1555,13 +1555,13 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627964550(1)](images\1627964550(1).jpg)
+![1627964550(1)](images/1627964550(1).jpg)
 
 
 
 
 
-![1627964631(1)](images\1627964631(1).jpg)
+![1627964631(1)](images/1627964631(1).jpg)
 
 
 
@@ -1679,11 +1679,11 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627964681(1)](images\1627964681(1).jpg)
+![1627964681(1)](images/1627964681(1).jpg)
 
 
 
-![1627964744(1)](images\1627964744(1).jpg)
+![1627964744(1)](images/1627964744(1).jpg)
 
 
 
@@ -1806,7 +1806,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627964827(1)](images\1627964827(1).jpg)
+![1627964827(1)](images/1627964827(1).jpg)
 
 
 
@@ -1823,7 +1823,7 @@ kubectl delete dr productpage -n istio
 
 **部署多集群**
 
-![three-01-2](images\three-01-2.bmp)
+![three-01-2](images/three-01-2.bmp)
 
 ```
 安装准备:
@@ -2444,11 +2444,11 @@ reboot
 
 
 
-![1627966029(1)](images\1627966029(1).jpg)
+![1627966029(1)](images/1627966029(1).jpg)
 
 http://192.168.198.154:15000/config_dump?include_eds
 
-![1628051454](images\1628051454.jpg)
+![1628051454](images/1628051454.jpg)
 
 
 
@@ -3130,13 +3130,13 @@ reboot
 
 
 
-![1627966190(1)](images\1627966190(1).jpg)
+![1627966190(1)](images/1627966190(1).jpg)
 
 
 
 http://192.168.198.154:15000/config_dump?include_eds
 
-![1628051340(1)](images\1628051340(1).jpg)
+![1628051340(1)](images/1628051340(1).jpg)
 
 
 
@@ -3236,7 +3236,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627966576(1)](images\1627966576(1).jpg)
+![1627966576(1)](images/1627966576(1).jpg)
 
 
 
@@ -3329,7 +3329,7 @@ kubectl delete dr productpage -n istio
 
 没有lb_policy 默认是轮询
 
-![1627966685(1)](images\1627966685(1).jpg)
+![1627966685(1)](images/1627966685(1).jpg)
 
 
 
@@ -3420,7 +3420,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1627966776(1)](images\1627966776(1).jpg)
+![1627966776(1)](images/1627966776(1).jpg)
 
 
 
@@ -3557,7 +3557,7 @@ kubectl delete envoyfilter lb-passthrough -n istio-system
 
 
 
-![1627966875(1)](images\1627966875(1).jpg)
+![1627966875(1)](images/1627966875(1).jpg)
 
   
 
@@ -3687,7 +3687,7 @@ no healthy upstream说明断路器生效
 
 
 
-![1628051827(1)](images\1628051827(1).jpg)
+![1628051827(1)](images/1628051827(1).jpg)
 
 
 
@@ -4407,11 +4407,11 @@ kubectl delete -f productpage-deploy.yaml -n istio
 
 
 
-![1628063173(1)](images\1628063173(1).jpg)
+![1628063173(1)](images/1628063173(1).jpg)
 
 
 
-![1628063516(1)](images\1628063516(1).jpg)
+![1628063516(1)](images/1628063516(1).jpg)
 
 
 
@@ -4568,7 +4568,7 @@ kubectl delete dr productpage -n istio
 
 没有t ransport_socket配置即disabled
 
-![1628064281(1)](images\1628064281(1).jpg)
+![1628064281(1)](images/1628064281(1).jpg)
 
 
 
@@ -4668,7 +4668,7 @@ kubectl delete dr productpage -n istio
 
 
 
-![1628064490(1)](images\1628064490(1).jpg)
+![1628064490(1)](images/1628064490(1).jpg)
 
 ##### credentialName
 
@@ -4881,7 +4881,7 @@ kubectl apply -f productpage-v1-deploy-original.yaml -n istio
 
 
 
-![1628064934(1)](images\1628064934(1).jpg)
+![1628064934(1)](images/1628064934(1).jpg)
 
 
 
@@ -5224,17 +5224,17 @@ kubectl apply -f istio-egressgateway-deploy.yaml -n istio-system
 
 kubectl port-forward --address 0.0.0.0 -n istio-system istio-egressgateway-746d7dc787-dvqws 15000:15000
 
-![1628137609(1)](images\1628137609(1).jpg)
+![1628137609(1)](images/1628137609(1).jpg)
 
 
 
 
 
-![1628137848(1)](images\1628137848(1).jpg)
+![1628137848(1)](images/1628137848(1).jpg)
 
 
 
-![1628138424(1)](images\1628138424(1).jpg)
+![1628138424(1)](images/1628138424(1).jpg)
 
 
 
@@ -5336,9 +5336,9 @@ kubectl delete dr productpage -n istio
 
 
 
-![1628138744(1)](images\1628138744(1).jpg)
+![1628138744(1)](images/1628138744(1).jpg)
 
 
 
-![1628138801(1)](images\1628138801(1).jpg)
+![1628138801(1)](images/1628138801(1).jpg)
 

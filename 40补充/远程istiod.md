@@ -4,7 +4,7 @@
 
 # 架构
 
-![external-controlplane](images\external-controlplane.svg)
+![external-controlplane](images/external-controlplane.svg)
 
 # 部署
 

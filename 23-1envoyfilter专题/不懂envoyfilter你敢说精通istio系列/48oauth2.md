@@ -4,7 +4,7 @@ OAuth（开放授权）是一个开放标准，允许用户授权第三方移动
 
 # 2qq流程案例
 
-![qq](48images\qq.webp)
+![qq](48images/qq.webp)
 
 # 3envoy流程
 

@@ -4,7 +4,7 @@
 
 # 架构
 
-![control-plane](images\control-plane.png)
+![control-plane](images/control-plane.png)
 
 ## CLI
 
